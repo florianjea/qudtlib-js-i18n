@@ -2,6 +2,7 @@
   "name": "qudtlib-js-i18n",
   "version": "0.1.0",
   "description": "Multilingual labels extension for @qudtlib/allunits",
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
