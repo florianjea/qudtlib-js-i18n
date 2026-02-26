@@ -5,7 +5,7 @@ Multilingual labels extension for [`@qudtlib/allunits`](https://github.com/qudtl
 `@qudtlib/allunits` ships only English (`en` / `en-US`) labels. This package patches `Unit` and `QuantityKind` instances at import time with ~14,000 labels from two sources:
 
 - **[QUDT ontology](https://qudt.org/vocab/unit)** — 20+ languages for units and quantity kinds
-- **[Wikidata](https://query.wikidata.org/sparql)** — French (`fr`) only, filling gaps not covered by QUDT
+- **[Wikidata](https://www.wikidata.org/)** — French (`fr`) only, filling gaps not covered by QUDT
 
 ## Installation
 
