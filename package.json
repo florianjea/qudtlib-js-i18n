@@ -1,6 +1,6 @@
 {
   "name": "qudtlib-js-i18n",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Florian JEANNE (https://github.com/florianjea/)",
   "homepage": "https://github.com/florianjea/qudtlib-js-i18n",
   "repository": "https://github.com/florianjea/qudtlib-js-i18n",
@@ -15,7 +15,10 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist", "src/labels.ts"],
+  "files": [
+    "dist",
+    "src/labels.ts"
+  ],
   "scripts": {
     "generate": "tsx --tsconfig tsconfig.scripts.json scripts/generate-labels.ts",
     "build": "tsc -p tsconfig.json",
