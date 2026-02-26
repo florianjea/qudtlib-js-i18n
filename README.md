@@ -2,7 +2,10 @@
 
 Multilingual labels extension for [`@qudtlib/allunits`](https://github.com/qudtlib/qudtlib-js).
 
-`@qudtlib/allunits` ships only English (`en` / `en-US`) labels. This package patches every live unit instance at import time with ~11,000 non-English labels sourced from the [QUDT ontology](https://qudt.org/vocab/unit), covering 20+ languages.
+`@qudtlib/allunits` ships only English (`en` / `en-US`) labels. This package patches `Unit` and `QuantityKind` instances at import time with ~14,000 labels from two sources:
+
+- **[QUDT ontology](https://qudt.org/vocab/unit)** — 20+ languages for units and quantity kinds
+- **[Wikidata](https://query.wikidata.org/sparql)** — French (`fr`) only, filling gaps not covered by QUDT
 
 ## Installation
 
@@ -42,11 +45,16 @@ Units.M.getLabelForLanguageTag("en"); // "Metre" (still works)
 
 ## Languages covered
 
-Arabic (`ar`), Bulgarian (`bg`), Czech (`cs`), German (`de`), Greek (`el`), Spanish (`es`), Persian (`fa`), French (`fr`), Hebrew (`he`), Hindi (`hi`), Hungarian (`hu`), Italian (`it`), Japanese (`ja`), Latin (`la`), Malay (`ms`), Polish (`pl`), Portuguese (`pt`), Romanian (`ro`), Russian (`ru`), Slovenian (`sl`), Turkish (`tr`), Chinese (`zh`), and more.
+| Source | Languages |
+|---|---|
+| QUDT ontology | Arabic (`ar`), Bulgarian (`bg`), Czech (`cs`), German (`de`), Greek (`el`), Spanish (`es`), Persian (`fa`), French (`fr`), Hebrew (`he`), Hindi (`hi`), Hungarian (`hu`), Italian (`it`), Japanese (`ja`), Latin (`la`), Malay (`ms`), Polish (`pl`), Portuguese (`pt`), Romanian (`ro`), Russian (`ru`), Slovenian (`sl`), Turkish (`tr`), Chinese (`zh`), and more |
+| Wikidata | French (`fr`) — units and quantity kinds only |
+
+French has the broadest coverage as it is supplemented by both sources.
 
 ## Keeping labels up to date
 
-Labels are regenerated weekly from the live QUDT ontology via a GitHub Actions workflow. You can also regenerate manually:
+Labels are regenerated weekly from the QUDT ontology and Wikidata via a GitHub Actions workflow. You can also regenerate manually:
 
 ```bash
 npm run generate
