@@ -1,6 +1,9 @@
 {
   "name": "qudtlib-js-i18n",
   "version": "0.1.0",
+  "author": "Florian JEANNE (https://github.com/florianjea/)",
+  "homepage": "https://github.com/florianjea/qudtlib-js-i18n",
+  "repository": "https://github.com/florianjea/qudtlib-js-i18n",
   "description": "Multilingual labels extension for @qudtlib/allunits",
   "license": "MIT",
   "type": "module",
