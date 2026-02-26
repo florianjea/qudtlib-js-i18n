@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-02-26
+
+### Added
+
+- QuantityKind multilingual labels (1,713 labels across 125 IRIs from QUDT)
+- French label enrichment via [Wikidata](https://query.wikidata.org/sparql): +462 French unit labels (property P2968) and +390 French quantity kind labels (property P8393) for entries missing French in the QUDT ontology
+- Total: 14,046 labels across 1,931 IRIs
+
 ## [0.1.0] - 2026-02-25
 
 ### Added

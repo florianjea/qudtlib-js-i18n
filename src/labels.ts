@@ -2,6 +2,7 @@
 // Sources:
 //   https://qudt.org/vocab/unit
 //   https://qudt.org/vocab/quantitykind
+//   https://query.wikidata.org/sparql (French labels via P2968 / P8393)
 // Do not edit manually — run `npm run generate` to refresh
 
 export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
@@ -28,6 +29,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Amper", "sl"],
     ["Amper", "tr"],
     ["安培", "zh"]
+  ],
+  "http://qudt.org/vocab/unit/A-HR": [
+    ["ampère-heure", "fr"]
   ],
   "http://qudt.org/vocab/unit/A-M2": [
     ["Ампер Квадратен Метър", "bg"],
@@ -339,6 +343,39 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kvadratni Amper Sekunda", "sl"],
     ["Amperkare Saniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/AC": [
+    ["acre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/AC-FT": [
+    ["acre-pied", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ANGSTROM": [
+    ["ångström", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ARCMIN": [
+    ["minute d'arc", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ARCSEC": [
+    ["seconde d'arc", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ARE": [
+    ["are", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ATM": [
+    ["atmosphère", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ATM_T": [
+    ["atmosphère technique", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/AU": [
+    ["unité astronomique", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/A_Ab": [
+    ["abampère", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/A_Stat": [
+    ["statampère", "fr"]
+  ],
   "http://qudt.org/vocab/unit/AttoA": [
     ["Attoampér", "cs"],
     ["Attoampere", "de"],
@@ -455,6 +492,42 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Bel na Meter", "sl"],
     ["Bel per Metre", "tr"]
   ],
+  "http://qudt.org/vocab/unit/BAN": [
+    ["hartley", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BAR": [
+    ["bar", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BARAD": [
+    ["barye", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BARN": [
+    ["barn", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BARYE": [
+    ["barye", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BAUD": [
+    ["baud", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BBL": [
+    ["baril", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BBL_US-PER-DAY": [
+    ["barils par jour", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BBL_US_DRY": [
+    ["baril sec (US)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BIOT": [
+    ["biot", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BIT": [
+    ["bit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BIT-PER-SEC": [
+    ["bit par seconde", "fr"]
+  ],
   "http://qudt.org/vocab/unit/BQ": [
     ["بيكريل", "ar"],
     ["Бекерел", "bg"],
@@ -546,6 +619,24 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Беккерель Секунда на Кубический Метр", "ru"],
     ["Becquerel Sekunda na Kubični Meter", "sl"],
     ["Bekerel Saniye per Metreküp", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/BTU_IT": [
+    ["BTU (International Table)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BTU_MEAN": [
+    ["BTU (moyen)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BTU_TH": [
+    ["British thermal unit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BU_UK": [
+    ["boisseau impérial", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BU_US": [
+    ["boisseau (US)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/BYTE": [
+    ["octet", "fr"]
   ],
   "http://qudt.org/vocab/unit/C": [
     ["كولوم", "ar"],
@@ -840,10 +931,145 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
   "http://qudt.org/vocab/unit/C4-M4-PER-J3": [
     ["Coulomb hoch vier Meter hoch vier pro Kubikjoule", "de"]
   ],
+  "http://qudt.org/vocab/unit/CAL_15_DEG_C": [
+    ["calorie (15 °C)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CAL_IT": [
+    ["calorie (International Table)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CAL_MEAN": [
+    ["moyenne calorie", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CAL_TH": [
+    ["calorie", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CARAT": [
+    ["carat", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_AED": [
+    ["Dirham des Émirats arabes unis", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_AFN": [
+    ["afghani", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ALL": [
+    ["lek", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_AMD": [
+    ["dram arménien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_AOA": [
+    ["Kwanza", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ARS": [
+    ["peso argentin", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_AUD": [
+    ["dollar australien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_AWG": [
+    ["florin arubais", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_AZN": [
+    ["manat azerbaïdjanais", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BBD": [
+    ["dollar barbadien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BDT": [
+    ["taka", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BGN": [
+    ["lev bulgare", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BHD": [
+    ["dinar bahreïnien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BIF": [
+    ["Franc burundais", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BMD": [
+    ["dollar bermudien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BND": [
+    ["dollar de Brunei", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BOB": [
+    ["boliviano", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BRL": [
+    ["réal brésilien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BSD": [
+    ["dollar bahaméen", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BTN": [
+    ["ngultrum", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BWP": [
+    ["Pula", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BYN": [
+    ["rouble biélorusse", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_BZD": [
+    ["dollar bélizien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_CAD": [
+    ["dollar canadien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_CDF": [
+    ["franc congolais", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_CHF": [
+    ["franc suisse", "fr"]
+  ],
   "http://qudt.org/vocab/unit/CCY_CHF-PER-HA": [
     ["Schweizer Franken Pro Hektare", "de"],
     ["Francs Suisses Par Hectare", "fr"],
     ["Franchi Svizzeri per Ettaro", "it"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_CLP": [
+    ["peso chilien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_COP": [
+    ["peso colombien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_COU": [
+    ["Unidad de Valor Real colombienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_CUP": [
+    ["peso cubain", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_CVE": [
+    ["escudo cap-verdien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_CZK": [
+    ["couronne tchèque", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_DJF": [
+    ["franc Djibouti", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_DKK": [
+    ["couronne danoise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_DOP": [
+    ["peso dominicain", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_DZD": [
+    ["dinar algérien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_EEK": [
+    ["couronne estonienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_EGP": [
+    ["livre égyptienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ERN": [
+    ["nakfa érythréen", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ETB": [
+    ["Birr", "fr"]
   ],
   "http://qudt.org/vocab/unit/CCY_EUR": [
     ["Euro", "de"]
@@ -859,6 +1085,306 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
   ],
   "http://qudt.org/vocab/unit/CCY_EUR-PER-W-SEC": [
     ["Euro pro Watt Sekunde", "de"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_FKP": [
+    ["livre des Îles Malouines", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GBP": [
+    ["livre sterling", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GEL": [
+    ["lari", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GHS": [
+    ["Cedi", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GIP": [
+    ["Livre de Gibraltar", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GMD": [
+    ["Dalasi", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GNF": [
+    ["franc guinéen", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GTQ": [
+    ["Quetzal", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_GYD": [
+    ["Dollar guyanien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_HKD": [
+    ["dollar de Hong Kong", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_HNL": [
+    ["lempira", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_HRK": [
+    ["kuna croate", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_HUF": [
+    ["forint", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_IDR": [
+    ["roupie indonésienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_INR": [
+    ["roupie indienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_IQD": [
+    ["dinar irakien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_IRR": [
+    ["rial iranien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ISK": [
+    ["couronne islandaise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_JMD": [
+    ["Dollar jamaïcain", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_JOD": [
+    ["Dinar jordanien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_JPY": [
+    ["yen", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_KES": [
+    ["Shilling kényan", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_KGS": [
+    ["som", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_KHR": [
+    ["riel", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_KPW": [
+    ["won nord-coréen", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_KRW": [
+    ["won sud-coréen", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_KWD": [
+    ["dinar koweïtien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_KYD": [
+    ["Dollar des îles Caïmans", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LAK": [
+    ["Kip laotien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LBP": [
+    ["livre libanaise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LKR": [
+    ["roupie srilankaise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LRD": [
+    ["dollar libérien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LSL": [
+    ["Loti", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LTL": [
+    ["litas", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LVL": [
+    ["lats", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_LYD": [
+    ["dinar libyen", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MAD": [
+    ["Dirham marocain", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MDL": [
+    ["leu moldave", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MGA": [
+    ["ariary", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MKD": [
+    ["denar macédonien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MMK": [
+    ["Kyat", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MNT": [
+    ["tugrik", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MOP": [
+    ["pataca", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MTL": [
+    ["lire maltaise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MUR": [
+    ["roupie mauricienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MVR": [
+    ["rufiyaa", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MWK": [
+    ["kwacha malawien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MXN": [
+    ["peso mexicain", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MYR": [
+    ["ringgit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_MZN": [
+    ["Metical", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_NAD": [
+    ["Dollar namibien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_NGN": [
+    ["naira", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_NOK": [
+    ["couronne norvégienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_NPR": [
+    ["roupie népalaise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_NZD": [
+    ["dollar néo-zélandais", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_OMR": [
+    ["Rial omanais", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_PAB": [
+    ["Balboa", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_PEN": [
+    ["nouveau sol", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_PGK": [
+    ["kina", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_PHP": [
+    ["peso philippin", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_PKR": [
+    ["roupie pakistanaise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_PLN": [
+    ["złoty", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_PYG": [
+    ["Guaraní", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_QAR": [
+    ["riyal qatarien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_RSD": [
+    ["dinar serbe", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_RUB": [
+    ["rouble russe", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SAR": [
+    ["riyal saoudien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SBD": [
+    ["dollar des îles Salomon", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SDG": [
+    ["livre soudanaise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SEK": [
+    ["couronne suédoise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SGD": [
+    ["dollar de Singapour", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SHP": [
+    ["livre de Sainte-Hélène", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SKK": [
+    ["couronne slovaque", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SLE": [
+    ["leone", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SOS": [
+    ["shilling somalien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SRD": [
+    ["Dollar du Surinam", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SYP": [
+    ["livre syrienne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_SZL": [
+    ["lilangeni", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_THB": [
+    ["baht", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_TJS": [
+    ["somoni", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_TND": [
+    ["dinar tunisien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_TRY": [
+    ["nouvelle livre turque", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_TTD": [
+    ["Dollar de Trinité-et-Tobago", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_TWD": [
+    ["nouveau dollar de Taïwan", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_TZS": [
+    ["shilling tanzanien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_UAH": [
+    ["hryvnia", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_UGX": [
+    ["shilling ougandais", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_USD": [
+    ["dollar américain", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_UZS": [
+    ["Sum", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_VES": [
+    ["bolivar", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_VND": [
+    ["dong", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_XAF": [
+    ["franc CFA d'Afrique centrale", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_XCD": [
+    ["dollar des Caraïbes orientales", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_XDR": [
+    ["droits de tirage spéciaux", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_XOF": [
+    ["franc CFA", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_XPF": [
+    ["franc Pacifique", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_YER": [
+    ["rial yéménite", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ZAR": [
+    ["rand", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ZMW": [
+    ["kwacha zambien", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CCY_ZWL": [
+    ["dollar du Zimbabwe", "fr"]
   ],
   "http://qudt.org/vocab/unit/CD": [
     ["قنديلة", "ar"],
@@ -883,6 +1409,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kandela", "sl"],
     ["Candela", "tr"],
     ["坎德拉", "zh"]
+  ],
+  "http://qudt.org/vocab/unit/CD-PER-IN2": [
+    ["candela par pouce carré", "fr"]
   ],
   "http://qudt.org/vocab/unit/CD-PER-KiloLM": [
     ["Kandela na Kilolumen", "cs"],
@@ -930,6 +1459,24 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kandela na Kvadratni Meter", "sl"],
     ["Candela per Metrekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/CH": [
+    ["chaîne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CLO": [
+    ["clo", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CORD": [
+    ["Corde", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CP": [
+    ["bougie", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/C_Ab": [
+    ["abcoulomb", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/C_Stat": [
+    ["statcoulomb", "fr"]
+  ],
   "http://qudt.org/vocab/unit/CentiC": [
     ["Centicoulomb", "cs"],
     ["Centicoulomb", "de"],
@@ -968,6 +1515,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Centigray", "ro"],
     ["Centigray", "sl"],
     ["Centigray", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/CentiL": [
+    ["centilitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/CentiM": [
     ["Centimetr", "cs"],
@@ -1253,6 +1803,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Centimol na Kilogram", "sl"],
     ["Centimol per Kilogram", "tr"]
   ],
+  "http://qudt.org/vocab/unit/CentiM_H2O": [
+    ["centimètre d'eau", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CentiM_HG": [
+    ["centimètre de mercure", "fr"]
+  ],
   "http://qudt.org/vocab/unit/CentiN": [
     ["Centinewton", "cs"],
     ["Centinewton", "de"],
@@ -1289,6 +1845,48 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Centinewton Metru pe Metru Pătrat", "ro"],
     ["Centinewton Meter na Kvadratni Meter", "sl"],
     ["Centinewton Metre per Metrekare", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/CentiPOISE": [
+    ["centipoise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/CentiST": [
+    ["centistokes", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/Ci": [
+    ["curie", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DARCY": [
+    ["Darcy", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DAY": [
+    ["jour", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DAY_Sidereal": [
+    ["jour sidéral", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DECADE": [
+    ["décade", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEG": [
+    ["degré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEG-PER-SEC": [
+    ["degré par seconde", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEG2": [
+    ["degré carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEGREE_API": [
+    ["degré API", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEGREE_BALLING": [
+    ["degré Balling", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEGREE_BRIX": [
+    ["degré Brix", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEGREE_PLATO": [
+    ["degré Plato", "fr"]
   ],
   "http://qudt.org/vocab/unit/DEG_C": [
     ["درجة مئوية", "ar"],
@@ -1428,6 +2026,36 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kvadratni Stopinja Celzija na Sekunda", "sl"],
     ["Celsiuskare per Saniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/DEG_F": [
+    ["degré Fahrenheit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DEG_R": [
+    ["degré Rankine", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DENIER": [
+    ["denier", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DIOPTER": [
+    ["dioptrie", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DPI": [
+    ["point par pouce", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DWT": [
+    ["pennyweight", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DYN": [
+    ["dyne", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/Da": [
+    ["unité de masse atomique unifiée", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/Debye": [
+    ["debye", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DecaARE": [
+    ["décare", "fr"]
+  ],
   "http://qudt.org/vocab/unit/DecaC": [
     ["Decacoulomb", "cs"],
     ["Dekacoulomb", "de"],
@@ -1466,6 +2094,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Decakelvin", "ro"],
     ["Decakelvin", "sl"],
     ["Decakelvin", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/DecaL": [
+    ["décalitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/DecaM": [
     ["Decametr", "cs"],
@@ -1508,6 +2139,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
   "http://qudt.org/vocab/unit/DecaPOISE": [
     ["Dekapoise", "de"]
   ],
+  "http://qudt.org/vocab/unit/DeciB": [
+    ["décibel", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/DeciB_M": [
+    ["DBm", "fr"]
+  ],
   "http://qudt.org/vocab/unit/DeciC": [
     ["Decicoulomb", "cs"],
     ["Decicoulomb", "de"],
@@ -1533,6 +2170,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Decigram", "ro"],
     ["Decigram", "sl"],
     ["Decigram", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/DeciL": [
+    ["décilitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/DeciM": [
     ["Decimetr", "cs"],
@@ -1570,6 +2210,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Decimetru Cub", "ro"],
     ["Kubični Decimeter", "sl"],
     ["Decimetreküp", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/DeciM3-PER-HR": [
+    ["décimètre cube par heure", "fr"]
   ],
   "http://qudt.org/vocab/unit/DeciM3-PER-KiloGM": [
     ["Decimetr Krychlový na Kilogram", "cs"],
@@ -1682,6 +2325,42 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Decisekunda", "sl"],
     ["Decisaniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/E": [
+    ["charge élémentaire", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ERG": [
+    ["erg", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ERG-PER-CentiM2-SEC": [
+    ["erg par seconde centimètre carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ERLANG": [
+    ["erlang", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/EV": [
+    ["électronvolt", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/EV-PER-M": [
+    ["électronvolt par mètre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/EV-SEC": [
+    ["électronvolt-seconde", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/E_h": [
+    ["énergie de Hartree", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/EarthMass": [
+    ["masse de la Terre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ElementaryCharge": [
+    ["charge élémentaire", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ExaBIT": [
+    ["Exabit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ExaBYTE": [
+    ["exaoctet", "fr"]
+  ],
   "http://qudt.org/vocab/unit/ExaC": [
     ["Exacoulomb", "cs"],
     ["Exacoulomb", "de"],
@@ -1764,6 +2443,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Exawatt", "sl"],
     ["Exawatt", "tr"]
   ],
+  "http://qudt.org/vocab/unit/ExbiBIT": [
+    ["exbibit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/ExbiBYTE": [
+    ["exbibyte", "fr"]
+  ],
   "http://qudt.org/vocab/unit/FARAD": [
     ["فاراد", "ar"],
     ["Фарад", "bg"],
@@ -1821,6 +2506,57 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Farad na Meter", "sl"],
     ["Farad per Metre", "tr"],
     ["法拉每米", "zh"]
+  ],
+  "http://qudt.org/vocab/unit/FATH": [
+    ["fathom", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FBM": [
+    ["pied planche", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FC": [
+    ["foot-candle", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FM": [
+    ["femtomètre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FR": [
+    ["franklin", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT": [
+    ["pied", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT-LB_F": [
+    ["Pied-livre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT-PDL": [
+    ["pied poundal", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT-PER-MIN": [
+    ["pied par minute", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT-PER-SEC": [
+    ["pied par seconde", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT-PER-SEC2": [
+    ["pied par seconde carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT2": [
+    ["pied carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT3": [
+    ["pied cube", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT3-PER-MIN": [
+    ["pied cube par minute", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT3-PER-SEC": [
+    ["pied cube par seconde", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FT_US": [
+    ["pied (U.S. survey)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/FUR": [
+    ["furlong", "fr"]
   ],
   "http://qudt.org/vocab/unit/FemtoA": [
     ["Femtoampér", "cs"],
@@ -1899,6 +2635,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Femtojoule", "sl"],
     ["Femtojoule", "tr"]
   ],
+  "http://qudt.org/vocab/unit/FemtoL": [
+    ["femtolitre", "fr"]
+  ],
   "http://qudt.org/vocab/unit/FemtoM": [
     ["Femtometr", "cs"],
     ["Femtometer", "de"],
@@ -1962,6 +2701,30 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Femtovolt", "ro"],
     ["Femtovolt", "sl"],
     ["Femtovolt", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/G": [
+    ["accélération normale de la pesanteur", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GALILEO": [
+    ["gal", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GAL_IMP": [
+    ["gallon (système impérial)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GAL_UK": [
+    ["gallon (système impérial)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GAL_US": [
+    ["gallon (US)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GAUGE_FR": [
+    ["charrière", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GAUSS": [
+    ["gauss", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GI": [
+    ["gilbert", "fr"]
   ],
   "http://qudt.org/vocab/unit/GM": [
     ["Gram", "cs"],
@@ -2168,6 +2931,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Gram na Kilometer", "sl"],
     ["Gram per Kilometre", "tr"]
   ],
+  "http://qudt.org/vocab/unit/GM-PER-L": [
+    ["gramme par litre", "fr"]
+  ],
   "http://qudt.org/vocab/unit/GM-PER-M": [
     ["Gram na Metr", "cs"],
     ["Gramm pro Meter", "de"],
@@ -2264,6 +3030,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Gram na Mol", "sl"],
     ["Gram per Mol", "tr"]
   ],
+  "http://qudt.org/vocab/unit/GM-PER-MilliL": [
+    ["gramme par millilitre", "fr"]
+  ],
   "http://qudt.org/vocab/unit/GM-PER-MilliM": [
     ["Gram na Millimetr", "cs"],
     ["Gramm pro Millimeter", "de"],
@@ -2331,6 +3100,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
   "http://qudt.org/vocab/unit/GM-SEC-PER-M6": [
     ["Gramm Sekunde pro Meter hoch sechs", "de"]
   ],
+  "http://qudt.org/vocab/unit/GON": [
+    ["grade", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GRAD": [
+    ["grade", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GRAIN": [
+    ["grain", "fr"]
+  ],
   "http://qudt.org/vocab/unit/GRAY": [
     ["جراي; غراي", "ar"],
     ["Грей", "bg"],
@@ -2372,6 +3150,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Gray na Sekunda", "sl"],
     ["Gray per Saniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/Gamma": [
+    ["gamma", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GibiBIT": [
+    ["gibibit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GibiBYTE": [
+    ["gibibyte", "fr"]
+  ],
   "http://qudt.org/vocab/unit/GigaA": [
     ["Gigaampér", "cs"],
     ["Gigaampere", "de"],
@@ -2385,6 +3172,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Gigaamper", "sl"],
     ["Gigaamper", "tr"]
   ],
+  "http://qudt.org/vocab/unit/GigaBIT": [
+    ["gigabit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/GigaBIT-PER-SEC": [
+    ["gigabit par seconde", "fr"]
+  ],
   "http://qudt.org/vocab/unit/GigaBQ": [
     ["Gigabecquerel", "cs"],
     ["Gigabecquerel", "de"],
@@ -2397,6 +3190,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Gigabecquerel", "ro"],
     ["Gigabecquerel", "sl"],
     ["Gigabekerel", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/GigaBYTE": [
+    ["gigaoctet", "fr"]
   ],
   "http://qudt.org/vocab/unit/GigaC": [
     ["Gigacoulomb", "cs"],
@@ -2422,6 +3218,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Gigacoulomb pe Metru Cub", "ro"],
     ["Gigacoulomb na Kubični Meter", "sl"],
     ["Gigacoulomb per Metreküp", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/GigaEV": [
+    ["gigaélectronvolt", "fr"]
   ],
   "http://qudt.org/vocab/unit/GigaHZ": [
     ["Gigahertz", "cs"],
@@ -2616,6 +3415,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Gigawatt", "sl"],
     ["Gigawatt", "tr"]
   ],
+  "http://qudt.org/vocab/unit/GigaW-HR": [
+    ["gigawattheure", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/Gs": [
+    ["gauss", "fr"]
+  ],
   "http://qudt.org/vocab/unit/H": [
     ["هنري", "ar"],
     ["Хенри", "bg"],
@@ -2686,8 +3491,26 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Henry na Ohm", "sl"],
     ["Henry per Ohm", "tr"]
   ],
+  "http://qudt.org/vocab/unit/HA": [
+    ["hectare", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/HART": [
+    ["hartley", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/HP": [
+    ["cheval-vapeur impérial", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/HP_Metric": [
+    ["cheval-vapeur", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/HR": [
+    ["heure", "fr"]
+  ],
   "http://qudt.org/vocab/unit/HR-PER-YR": [
     ["Uur per Jaar", "nl"]
+  ],
+  "http://qudt.org/vocab/unit/HUNDRED": [
+    ["groupe de cent", "fr"]
   ],
   "http://qudt.org/vocab/unit/HZ": [
     ["هرتز", "ar"],
@@ -2785,6 +3608,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Hertz na Volt", "sl"],
     ["Hertz per Volt", "tr"]
   ],
+  "http://qudt.org/vocab/unit/H_Ab": [
+    ["abhenry", "fr"]
+  ],
   "http://qudt.org/vocab/unit/HectoC": [
     ["Hectocoulomb", "cs"],
     ["Hectocoulomb", "de"],
@@ -2810,6 +3636,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Hectogram", "ro"],
     ["Hectogram", "sl"],
     ["Hectogram", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/HectoL": [
+    ["hectolitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/HectoM": [
     ["Hectometr", "cs"],
@@ -2872,6 +3701,27 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Hectopascal pe Metru", "ro"],
     ["Hectopascal na Meter", "sl"],
     ["Hectopascal per Metre", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/IN": [
+    ["pouce", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/IN-PER-SEC": [
+    ["pouce par seconde", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/IN2": [
+    ["pouce carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/IN3": [
+    ["pouce cube", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/IN_H2O": [
+    ["pouce d'eau", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/IN_HG": [
+    ["pouce de mercure", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/IU": [
+    ["unité internationale", "fr"]
   ],
   "http://qudt.org/vocab/unit/J": [
     ["Джаул", "bg"],
@@ -3625,6 +4475,21 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Katal na Kubični Meter", "sl"],
     ["Katal per Metreküp", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KIP_F": [
+    ["kilolivre-force", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KN": [
+    ["nœud", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KY": [
+    ["kayser", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KibiBIT": [
+    ["kibibit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KibiBYTE": [
+    ["kibibyte", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloA": [
     ["Kiloampér", "cs"],
     ["Kiloampere", "de"],
@@ -3674,6 +4539,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kiloamper na Kvadratni Meter", "sl"],
     ["Kiloamper per Metrekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KiloBAR": [
+    ["kilobar", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloBIT": [
+    ["Kilobit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloBIT-PER-SEC": [
+    ["kilobit par seconde", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloBQ": [
     ["Kilobecquerel", "cs"],
     ["Kilobecquerel", "de"],
@@ -3698,6 +4572,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilobecquerel pe Kilogram", "ro"],
     ["Kilobecquerel na Kilogram", "sl"],
     ["Kilobekerel per Kilogram", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloBYTE": [
+    ["kilo-octet", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloBYTE-PER-SEC": [
+    ["kilobyte par seconde", "fr"]
   ],
   "http://qudt.org/vocab/unit/KiloC": [
     ["Kilocoulomb", "cs"],
@@ -3736,6 +4616,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilocoulomb na Kubični Meter", "sl"],
     ["Kilocoulomb per Metreküp", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KiloCAL": [
+    ["kilocalorie", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloCAL_Mean": [
+    ["kilocalorie (moyenne)", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloCD": [
     ["Kilokandela", "cs"],
     ["Kilocandela", "de"],
@@ -3748,6 +4634,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilocandelă", "ro"],
     ["Kilokandela", "sl"],
     ["Kilocandela", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloCi": [
+    ["kilocurie", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloEV": [
+    ["kiloélectronvolt", "fr"]
   ],
   "http://qudt.org/vocab/unit/KiloFARAD": [
     ["Kilofarad", "cs"],
@@ -4484,6 +5376,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kvadratni Kilogram na Kvadratni Sekunda", "sl"],
     ["Kilogramkare per Saniyekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KiloGM_F": [
+    ["kilogramme-force", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloGM_F-PER-CentiM2": [
+    ["kilogramme-force par centimètre carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloGM_F-PER-M2": [
+    ["kilogramme-force par mètre carré", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloGRAY": [
     ["Kilogray", "cs"],
     ["Kilogray", "de"],
@@ -4620,6 +5521,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilojoule na Sekunda", "sl"],
     ["Kilojoule per Saniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KiloL": [
+    ["kilolitre", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloLM": [
     ["Kilolumen", "cs"],
     ["Kilolumen", "de"],
@@ -4645,6 +5549,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilometru", "ro"],
     ["Kilometer", "sl"],
     ["Kilometre", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/KiloM-PER-HR": [
+    ["kilomètre par heure", "fr"]
   ],
   "http://qudt.org/vocab/unit/KiloM-PER-SEC": [
     ["Kilometr na Sekunda", "cs"],
@@ -4998,6 +5905,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilopascal na Millimeter", "sl"],
     ["Kilopascal per Millimetre", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KiloR": [
+    ["kiloröntgen", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloS": [
     ["Kilosiemens", "cs"],
     ["Kilosiemens", "de"],
@@ -5049,8 +5959,14 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilotesla", "sl"],
     ["Kilotesla", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KiloTONNE": [
+    ["kilotonne", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloTONNE-PER-YR": [
     ["Kiloton per Jaar", "nl"]
+  ],
+  "http://qudt.org/vocab/unit/KiloTON_Metric": [
+    ["kilotonne", "fr"]
   ],
   "http://qudt.org/vocab/unit/KiloV": [
     ["Kilovolt", "cs"],
@@ -5126,6 +6042,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kilowatt", "sl"],
     ["Kilowatt", "tr"]
   ],
+  "http://qudt.org/vocab/unit/KiloW-HR": [
+    ["kilowattheure", "fr"]
+  ],
   "http://qudt.org/vocab/unit/KiloW-PER-M-DEG_C": [
     ["Kilowatt na Metr Stupně Celsia", "cs"],
     ["Kilowatt pro Meter Grad Celsius", "de"],
@@ -5198,6 +6117,45 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kiloweber pe Metru", "ro"],
     ["Kiloweber na Meter", "sl"],
     ["Kiloweber per Metre", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/L": [
+    ["litre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/L-PER-DAY": [
+    ["litre par jour", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/L-PER-KiloGM": [
+    ["litre par kilogramme", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/L-PER-SEC": [
+    ["litre par seconde", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LA": [
+    ["lambert", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LANGLEY": [
+    ["langley", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LA_FT": [
+    ["Foot-lambert", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LB": [
+    ["livre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LB-PER-FT2": [
+    ["livre par pied carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LB-PER-HR": [
+    ["livre par heure", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LB_F": [
+    ["livre-force", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LB_F-FT": [
+    ["Livre-pied", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/LB_F-PER-IN2": [
+    ["PSI", "fr"]
   ],
   "http://qudt.org/vocab/unit/LM": [
     ["لومن", "ar"],
@@ -5312,6 +6270,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Люкс Секунда", "ru"],
     ["Luks Sekunda", "sl"],
     ["Lüks Saniye", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/LY": [
+    ["année-lumière", "fr"]
   ],
   "http://qudt.org/vocab/unit/M": [
     ["متر", "ar"],
@@ -5441,6 +6402,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Meter na Farad", "sl"],
     ["Metre per Farad", "tr"]
   ],
+  "http://qudt.org/vocab/unit/M-PER-HR": [
+    ["mètre par heure", "fr"]
+  ],
   "http://qudt.org/vocab/unit/M-PER-K": [
     ["Метър на Келвин", "bg"],
     ["Metr na Kelvin", "cs"],
@@ -5474,6 +6438,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Метр на Квадратный Метр", "ru"],
     ["Meter na Kvadratni Meter", "sl"],
     ["Metre per Metrekare", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/M-PER-MIN": [
+    ["mètre par minute", "fr"]
   ],
   "http://qudt.org/vocab/unit/M-PER-PA": [
     ["Метър на Паскал", "bg"],
@@ -6157,6 +7124,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kubični Meter na Coulomb", "sl"],
     ["Metreküp per Coulomb", "tr"]
   ],
+  "http://qudt.org/vocab/unit/M3-PER-DAY": [
+    ["mètre cube par jour", "fr"]
+  ],
   "http://qudt.org/vocab/unit/M3-PER-K": [
     ["Кубичен Метър на Келвин", "bg"],
     ["Metr Krychlový na Kelvin", "cs"],
@@ -6241,6 +7211,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Кубический Метр на Кубический Метр", "ru"],
     ["Kubični Meter na Kubični Meter", "sl"],
     ["Metreküp per Metreküp", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/M3-PER-MIN": [
+    ["mètre cube par minute", "fr"]
   ],
   "http://qudt.org/vocab/unit/M3-PER-MOL": [
     ["متر مكعب لكل مول", "ar"],
@@ -6387,7 +7360,8 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kubieke Meter per Jaar", "nl"]
   ],
   "http://qudt.org/vocab/unit/M4": [
-    ["Meter hoch vier", "de"]
+    ["Meter hoch vier", "de"],
+    ["mètre puissance quatre", "fr"]
   ],
   "http://qudt.org/vocab/unit/M4-PER-SEC": [
     ["Meter hoch vier pro Sekunde", "de"]
@@ -6397,6 +7371,36 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
   ],
   "http://qudt.org/vocab/unit/M6": [
     ["Meter hoch sechs", "de"]
+  ],
+  "http://qudt.org/vocab/unit/MESH": [
+    ["mesh", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MHO": [
+    ["mho", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MI": [
+    ["mille", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MI-PER-HR": [
+    ["mille par heure", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MI2": [
+    ["mille carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MI3": [
+    ["mille cube", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MIL_Circ": [
+    ["mil circulaire", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MIN": [
+    ["minute", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MI_N": [
+    ["mille nautique", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MO": [
+    ["mois", "fr"]
   ],
   "http://qudt.org/vocab/unit/MOL": [
     ["مول", "ar"],
@@ -6518,6 +7522,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Моль на Килограмм Паскаль", "ru"],
     ["Mol na Kilogram Pascal", "sl"],
     ["Mol per Kilogram Pascal", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MOL-PER-L": [
+    ["mol par litre", "fr"]
   ],
   "http://qudt.org/vocab/unit/MOL-PER-M2": [
     ["Мол на Квадратен Метър", "bg"],
@@ -6706,6 +7713,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Mol na Sekunda", "sl"],
     ["Mol per Saniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MX": [
+    ["maxwell", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MebiBIT": [
+    ["mebibit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MebiBYTE": [
+    ["mebibyte", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MegaA": [
     ["Megaampér", "cs"],
     ["Megaampere", "de"],
@@ -6731,6 +7747,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Megaamper na Kvadratni Meter", "sl"],
     ["Megaamper per Metrekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MegaBIT": [
+    ["mégabit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MegaBIT-PER-SEC": [
+    ["mégabits par seconde", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MegaBQ": [
     ["Megabecquerel", "cs"],
     ["Megabecquerel", "de"],
@@ -6755,6 +7777,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Megabecquerel pe Kilogram", "ro"],
     ["Megabecquerel na Kilogram", "sl"],
     ["Megabekerel per Kilogram", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MegaBYTE": [
+    ["mégaoctet", "fr"]
   ],
   "http://qudt.org/vocab/unit/MegaC": [
     ["Megacoulomb", "cs"],
@@ -6792,6 +7817,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Megacoulomb pe Metru Cub", "ro"],
     ["Megacoulomb na Kubični Meter", "sl"],
     ["Megacoulomb per Metreküp", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MegaEV": [
+    ["mégaélectronvolt", "fr"]
   ],
   "http://qudt.org/vocab/unit/MegaGM": [
     ["Megagram", "cs"],
@@ -6977,6 +8005,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Megakelvin", "ro"],
     ["Megakelvin", "sl"],
     ["Megakelvin", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MegaL": [
+    ["mégalitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/MegaN": [
     ["Meganewton", "cs"],
@@ -7187,6 +8218,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Megasekunda", "sl"],
     ["Megasaniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MegaTONNE": [
+    ["mégatonne", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MegaTONNE-PER-YR": [
     ["Megatonne pro Jahr", "de"],
     ["Mégatonne par An", "fr"]
@@ -7247,6 +8281,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Megawatt", "sl"],
     ["Megawatt", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MegaW-HR": [
+    ["mégawattheure", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MegaYR": [
+    ["million d'années", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MicroA": [
     ["Microampér", "cs"],
     ["Microampere", "de"],
@@ -7271,6 +8311,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Microamper pe Kelvin", "ro"],
     ["Microamper na Kelvin", "sl"],
     ["Microamper per Kelvin", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MicroBAR": [
+    ["microbar", "fr"]
   ],
   "http://qudt.org/vocab/unit/MicroBQ": [
     ["Microbecquerel", "cs"],
@@ -7333,6 +8376,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Microcoulomb pe Metru Cub", "ro"],
     ["Microcoulomb na Kubični Meter", "sl"],
     ["Microcoulomb per Metreküp", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MicroCi": [
+    ["microcurie", "fr"]
   ],
   "http://qudt.org/vocab/unit/MicroFARAD": [
     ["Microfarad", "cs"],
@@ -7533,6 +8579,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Microhenry na Ohm", "sl"],
     ["Microhenry per Ohm", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MicroIN": [
+    ["micropouce", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MicroJ": [
     ["Microjoule", "cs"],
     ["Microjoule", "de"],
@@ -7570,6 +8619,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Microkatal", "ro"],
     ["Microkatal", "sl"],
     ["Microkatal", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MicroL": [
+    ["microlitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/MicroM": [
     ["Micrometr", "cs"],
@@ -8091,6 +9143,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Milliamper", "sl"],
     ["Milliamper", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliA-HR": [
+    ["milliampère heure", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliA-PER-K": [
     ["Milliampér na Kelvin", "cs"],
     ["Milliampere pro Kelvin", "de"],
@@ -8126,6 +9181,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Milliamper Secundă", "ro"],
     ["Milliamper Sekunda", "sl"],
     ["Milliamper Saniye", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliARCSEC": [
+    ["milliseconde d'arc", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliBAR": [
+    ["millibar", "fr"]
   ],
   "http://qudt.org/vocab/unit/MilliBQ": [
     ["Millibecquerel", "cs"],
@@ -8226,6 +9287,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millikandela", "sl"],
     ["Millicandela", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliCi": [
+    ["millicurie", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliDEG_C": [
     ["Milli Stupně Celsia", "cs"],
     ["Milli Grad Celsius", "de"],
@@ -8252,6 +9316,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millifarad", "sl"],
     ["Millifarad", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliGAL": [
+    ["milligal", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliGM": [
     ["Milligram", "cs"],
     ["Milligramm", "de"],
@@ -8276,6 +9343,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Milligram pe Centimetru Pătrat", "ro"],
     ["Milligram na Kvadratni Centimeter", "sl"],
     ["Milligram per Centimetrekare", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliGM-PER-DeciL": [
+    ["milligramme par décilitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/MilliGM-PER-DeciM2": [
     ["Milligram na Čtvereční Decimetr", "cs"],
@@ -8326,6 +9396,7 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Milligram per Kilogram", "tr"]
   ],
   "http://qudt.org/vocab/unit/MilliGM-PER-L": [
+    ["milligramme par litre", "fr"],
     ["Milligram per Liter", "nl"]
   ],
   "http://qudt.org/vocab/unit/MilliGM-PER-M": [
@@ -8539,6 +9610,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millihertz", "sl"],
     ["Millihertz", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliIN": [
+    ["mil", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliJ": [
     ["Millijoule", "cs"],
     ["Millijoule", "de"],
@@ -8626,6 +9700,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millikatal", "sl"],
     ["Millikatal", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliL": [
+    ["millilitre", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliL-PER-L": [
+    ["millilitre par litre", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliM": [
     ["Millimetr", "cs"],
     ["Millimeter", "de"],
@@ -8687,6 +9767,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millimeter na Kvadratni Meter", "sl"],
     ["Millimetre per Metrekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliM-PER-MIN": [
+    ["millimètre par minute", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliM-PER-SEC": [
     ["Millimetr na Sekunda", "cs"],
     ["Millimeter pro Sekunde", "de"],
@@ -8710,6 +9793,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millimetru pe Secundă Pătrat", "ro"],
     ["Millimeter na Kvadratni Sekunda", "sl"],
     ["Millimetre per Saniyekare", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliM-PER-YR": [
+    ["millimètre par an", "fr"]
   ],
   "http://qudt.org/vocab/unit/MilliM2": [
     ["Čtvereční Millimetr", "cs"],
@@ -8823,6 +9909,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millimol na Kilogram", "sl"],
     ["Millimol per Kilogram", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliMOL-PER-L": [
+    ["millimole par litre", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliMOL-PER-M2": [
     ["Millimol na Čtvereční Metr", "cs"],
     ["Millimol pro Quadratmeter", "de"],
@@ -8870,6 +9959,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millimol pe Mol", "ro"],
     ["Millimol na Mol", "sl"],
     ["Millimol per Mol", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliM_H2O": [
+    ["millimètre d'eau", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliM_HG": [
+    ["millimètre de mercure", "fr"]
   ],
   "http://qudt.org/vocab/unit/MilliN": [
     ["Millinewton", "cs"],
@@ -9018,6 +10113,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Millipascal Sekunda na Kelvin", "sl"],
     ["Millipascal Saniye per Kelvin", "tr"]
   ],
+  "http://qudt.org/vocab/unit/MilliR": [
+    ["milliröntgen", "fr"]
+  ],
   "http://qudt.org/vocab/unit/MilliRAD": [
     ["Milliradián", "cs"],
     ["Milliradiant", "de"],
@@ -9030,6 +10128,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Milliradian", "ro"],
     ["Milliradian", "sl"],
     ["Milliradyan", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/MilliR_man": [
+    ["millirem", "fr"]
   ],
   "http://qudt.org/vocab/unit/MilliS": [
     ["Millisiemens", "cs"],
@@ -9807,11 +10908,20 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Newton Sekunda na Radian", "sl"],
     ["Newton Saniye per Radyan", "tr"]
   ],
+  "http://qudt.org/vocab/unit/NAT": [
+    ["nat", "fr"]
+  ],
   "http://qudt.org/vocab/unit/NCM": [
     ["Normkubikmeter", "de"]
   ],
   "http://qudt.org/vocab/unit/NCM_1ATM_0DEG_C_NL": [
     ["Normaal Kubieke Meter", "nl"]
+  ],
+  "http://qudt.org/vocab/unit/NP": [
+    ["néper", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/NUM-PER-SEC": [
+    ["coup par seconde", "fr"]
   ],
   "http://qudt.org/vocab/unit/NanoA": [
     ["Nanoampér", "cs"],
@@ -10052,6 +11162,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Nanokatal", "ro"],
     ["Nanokatal", "sl"],
     ["Nanokatal", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/NanoL": [
+    ["nanolitre", "fr"]
   ],
   "http://qudt.org/vocab/unit/NanoM": [
     ["Nanometr", "cs"],
@@ -10369,6 +11482,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Nanowatt na Kvadratni Meter", "sl"],
     ["Nanowatt per Metrekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/OCTET": [
+    ["octet", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/OERSTED": [
+    ["oersted", "fr"]
+  ],
   "http://qudt.org/vocab/unit/OHM": [
     ["أوم", "ar"],
     ["Ом", "bg"],
@@ -10501,6 +11620,18 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Ом на Метр", "ru"],
     ["Ohm na Meter", "sl"],
     ["Ohm per Metre", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/OZ": [
+    ["once", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/OZ_TROY": [
+    ["once troy", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/OZ_VOL_UK": [
+    ["once liquide (système impérial)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/OZ_VOL_US": [
+    ["once liquide (US)", "fr"]
   ],
   "http://qudt.org/vocab/unit/PA": [
     ["باسكال", "ar"],
@@ -10773,6 +11904,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kvadratni Pascal Sekunda", "sl"],
     ["Pascalkare Saniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/PARSEC": [
+    ["parsec", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PCA": [
+    ["pica", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PDL": [
+    ["poundal", "fr"]
+  ],
   "http://qudt.org/vocab/unit/PER-CentiM": [
     ["Na Centimetr", "cs"],
     ["Pro Centimeter", "de"],
@@ -10796,6 +11936,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Pe Centimetru Cub", "ro"],
     ["Na Kubični Centimeter", "sl"],
     ["Per Centimetreküp", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/PER-DAY": [
+    ["jour réciproque", "fr"]
   ],
   "http://qudt.org/vocab/unit/PER-DEG_C": [
     ["На Градус Целзий", "bg"],
@@ -10844,6 +11987,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["На Генри", "ru"],
     ["Na Henry", "sl"],
     ["Per Henry", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/PER-HR": [
+    ["heure réciproque", "fr"]
   ],
   "http://qudt.org/vocab/unit/PER-J": [
     ["На Джаул", "bg"],
@@ -11135,6 +12281,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["На Кубический Метр Секунда", "ru"],
     ["Na Kubični Meter Sekunda", "sl"],
     ["Per Metreküp Saniye", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/PER-MIN": [
+    ["minute réciproque", "fr"]
   ],
   "http://qudt.org/vocab/unit/PER-MOL": [
     ["На Мол", "bg"],
@@ -11541,6 +12690,48 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Na Weber", "sl"],
     ["Per Weber", "tr"]
   ],
+  "http://qudt.org/vocab/unit/PER-YR": [
+    ["année réciproque", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PERCENT": [
+    ["pourcent", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PHOT": [
+    ["phot", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PINT_UK": [
+    ["pinte (système impérial)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PINT_US": [
+    ["pinte liquide (US)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PINT_US_DRY": [
+    ["pinte sèche (US)", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/POISE": [
+    ["poise", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PPB": [
+    ["partie par milliard", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PPM": [
+    ["partie par million", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PPT": [
+    ["partie par billion", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PT": [
+    ["point", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PebiBIT": [
+    ["Pebibit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PebiBYTE": [
+    ["pebibyte", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/Pennyweight": [
+    ["pennyweight", "fr"]
+  ],
   "http://qudt.org/vocab/unit/PetaA": [
     ["Petaampér", "cs"],
     ["Petaampere", "de"],
@@ -11554,6 +12745,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Petaamper", "sl"],
     ["Petaamper", "tr"]
   ],
+  "http://qudt.org/vocab/unit/PetaBIT": [
+    ["pétabit", "fr"]
+  ],
   "http://qudt.org/vocab/unit/PetaBQ": [
     ["Petabecquerel", "cs"],
     ["Petabecquerel", "de"],
@@ -11566,6 +12760,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Petabecquerel", "ro"],
     ["Petabecquerel", "sl"],
     ["Petabekerel", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/PetaBYTE": [
+    ["pétaoctet", "fr"]
   ],
   "http://qudt.org/vocab/unit/PetaC": [
     ["Petacoulomb", "cs"],
@@ -11825,6 +13022,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Picokatal", "sl"],
     ["Picokatal", "tr"]
   ],
+  "http://qudt.org/vocab/unit/PicoL": [
+    ["picolitre", "fr"]
+  ],
   "http://qudt.org/vocab/unit/PicoM": [
     ["Picometr", "cs"],
     ["Picometer", "de"],
@@ -12018,6 +13218,66 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Picowatt na Kvadratni Meter", "sl"],
     ["Picowatt per Metrekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/PlanckArea": [
+    ["aire de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckCharge": [
+    ["charge de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckCurrent": [
+    ["courant de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckCurrentDensity": [
+    ["densité de courant de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckDensity": [
+    ["densité de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckEnergy": [
+    ["énergie de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckForce": [
+    ["force de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckFrequency_Ang": [
+    ["fréquence angulaire de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckImpedance": [
+    ["impédance de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckLength": [
+    ["longueur de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckMass": [
+    ["masse de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckMomentum": [
+    ["quantité de mouvement de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckPower": [
+    ["luminosité de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckPressure": [
+    ["pression de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckTemperature": [
+    ["température de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckTime": [
+    ["temps de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckVolt": [
+    ["tension de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/PlanckVolume": [
+    ["volume de Planck", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/QUAD": [
+    ["quad", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/R": [
+    ["röntgen", "fr"]
+  ],
   "http://qudt.org/vocab/unit/RAD": [
     ["راديان", "ar"],
     ["Радиан", "bg"],
@@ -12136,6 +13396,24 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Радиан на Квадратный Секунда", "ru"],
     ["Radian na Kvadratni Sekunda", "sl"],
     ["Radyan per Saniyekare", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/RAD_R": [
+    ["rad", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/RAYL": [
+    ["Rayleigh", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/REM": [
+    ["Röntgen equivalent man", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/REV": [
+    ["tour", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/REV-PER-MIN": [
+    ["tour par minute", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/RHE": [
+    ["rhé", "fr"]
   ],
   "http://qudt.org/vocab/unit/S": [
     ["سيمنز", "ar"],
@@ -12324,6 +13602,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Kvadratni Sekunda", "sl"],
     ["Saniyekare", "tr"]
   ],
+  "http://qudt.org/vocab/unit/SH": [
+    ["shake", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/SHANNON": [
+    ["shannon", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/SLUG": [
+    ["slug", "fr"]
+  ],
   "http://qudt.org/vocab/unit/SR": [
     ["ستراديان", "ar"],
     ["Стерадиан", "bg"],
@@ -12347,6 +13634,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Steradian", "sl"],
     ["Steradyan", "tr"],
     ["球面度", "zh"]
+  ],
+  "http://qudt.org/vocab/unit/ST": [
+    ["stokes", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/STILB": [
+    ["stilb", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/STR": [
+    ["stère", "fr"]
   ],
   "http://qudt.org/vocab/unit/SV": [
     ["زيفرت", "ar"],
@@ -12388,6 +13684,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Зиверт на Секунда", "ru"],
     ["Sievert na Sekunda", "sl"],
     ["Sievert per Saniye", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/SolarMass": [
+    ["masse solaire", "fr"]
   ],
   "http://qudt.org/vocab/unit/T": [
     ["تسلا", "ar"],
@@ -12447,8 +13746,44 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Tesla Sekunda", "sl"],
     ["Tesla Saniye", "tr"]
   ],
+  "http://qudt.org/vocab/unit/TBSP": [
+    ["Cuillère à soupe", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TEN": [
+    ["dizaine", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TEX": [
+    ["tex", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TONNE": [
+    ["tonne", "fr"]
+  ],
   "http://qudt.org/vocab/unit/TONNE-PER-YR": [
     ["Ton per Jaar", "nl"]
+  ],
+  "http://qudt.org/vocab/unit/TON_FG": [
+    ["ton of refrigeration", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TON_LONG": [
+    ["tonne longue", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TON_Register": [
+    ["tonneau", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TON_SHORT": [
+    ["tonne courte", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TON_US": [
+    ["tonne courte", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TORR": [
+    ["torr", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TebiBIT": [
+    ["Tébibit", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/TebiBYTE": [
+    ["tebibyte", "fr"]
   ],
   "http://qudt.org/vocab/unit/TeraA": [
     ["Teraampér", "cs"],
@@ -12463,6 +13798,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Teraamper", "sl"],
     ["Teraamper", "tr"]
   ],
+  "http://qudt.org/vocab/unit/TeraBIT": [
+    ["térabit", "fr"]
+  ],
   "http://qudt.org/vocab/unit/TeraBQ": [
     ["Terabecquerel", "cs"],
     ["Terabecquerel", "de"],
@@ -12475,6 +13813,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Terabecquerel", "ro"],
     ["Terabecquerel", "sl"],
     ["Terabekerel", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/TeraBYTE": [
+    ["téraoctet", "fr"]
   ],
   "http://qudt.org/vocab/unit/TeraC": [
     ["Teracoulomb", "cs"],
@@ -12584,6 +13925,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Terawatt", "sl"],
     ["Terawatt", "tr"]
   ],
+  "http://qudt.org/vocab/unit/TeraW-HR": [
+    ["térawattheure", "fr"]
+  ],
   "http://qudt.org/vocab/unit/TeraW-HR-PER-YR": [
     ["Terawattstunde Pro Jahr", "de"],
     ["Terawatt Heure Par An", "fr"]
@@ -12646,6 +13990,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Вольт Ампер на Кельвин", "ru"],
     ["Volt Amper na Kelvin", "sl"],
     ["Volt Amper per Kelvin", "tr"]
+  ],
+  "http://qudt.org/vocab/unit/V-A_Reactive": [
+    ["var", "fr"]
   ],
   "http://qudt.org/vocab/unit/V-M": [
     ["Волт Метър", "bg"],
@@ -12858,6 +14205,12 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Volt-ampere por Kelvin", "pt"],
     ["Вольт-ампер на Кельвин", "ru"]
   ],
+  "http://qudt.org/vocab/unit/V_Ab": [
+    ["abvolt", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/V_Stat": [
+    ["statvolt", "fr"]
+  ],
   "http://qudt.org/vocab/unit/W": [
     ["واط", "ar"],
     ["Ват", "bg"],
@@ -12881,6 +14234,9 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Watt", "sl"],
     ["Watt", "tr"],
     ["瓦特", "zh"]
+  ],
+  "http://qudt.org/vocab/unit/W-HR": [
+    ["wattheure", "fr"]
   ],
   "http://qudt.org/vocab/unit/W-M-PER-M2-SR": [
     ["Ват Метър на Квадратен Метър Стерадиан", "bg"],
@@ -13084,7 +14440,8 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Watt per Metrekare Kelvin", "tr"]
   ],
   "http://qudt.org/vocab/unit/W-PER-M2-K4": [
-    ["Watt pro Quadratmeter Kelvin hoch vier", "de"]
+    ["Watt pro Quadratmeter Kelvin hoch vier", "de"],
+    ["watt par mètre carré kelvin puissance quatre", "fr"]
   ],
   "http://qudt.org/vocab/unit/W-PER-M2-M": [
     ["Ват на Квадратен Метър Метър", "bg"],
@@ -13345,6 +14702,30 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
     ["Weber na Millimeter", "sl"],
     ["Weber per Millimetre", "tr"]
   ],
+  "http://qudt.org/vocab/unit/WK": [
+    ["semaine", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/YD": [
+    ["verge", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/YD2": [
+    ["yard carré", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/YD3": [
+    ["verge cube", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/YR": [
+    ["année", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/YR_Common": [
+    ["année commune", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/YR_Sidereal": [
+    ["année sidérale", "fr"]
+  ],
+  "http://qudt.org/vocab/unit/YR_TROPICAL": [
+    ["année tropique", "fr"]
+  ],
   "http://qudt.org/vocab/unit/YoctoC": [
     ["Yoctocoulomb", "cs"],
     ["Yoctocoulomb", "de"],
@@ -13403,6 +14784,15 @@ export const UNIT_LABELS: Record<string, Array<[string, string]>> = {
 };
 
 export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
+  "http://qudt.org/vocab/quantitykind/AbsorbedDose": [
+    ["dose absorbée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AbsorbedDoseRate": [
+    ["débit de dose absorbée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Absorptance": [
+    ["facteur d'absorption", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Acceleration": [
     ["التسارع", "ar"],
     ["Zrychlení", "cs"],
@@ -13423,6 +14813,45 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["pospešek", "sl"],
     ["ivme", "tr"],
     ["加速度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AccelerationOfGravity": [
+    ["accélération de la pesanteur", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AcceptorDensity": [
+    ["densité d'accepteurs", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AcceptorIonizationEnergy": [
+    ["energie d'ionisation d'accepteur", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Action": [
+    ["action", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ActiveEnergy": [
+    ["énergie active", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ActivePower": [
+    ["puissance active", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Activity": [
+    ["activité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ActivityCoefficient": [
+    ["facteur d'activité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ActivityConcentration": [
+    ["activité volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Admittance": [
+    ["admittance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AlphaDisintegrationEnergy": [
+    ["énergie de désintégration alpha", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Altitude": [
+    ["altitude", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AmbientPressure": [
+    ["pression ambiante", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/AmountOfSubstance": [
     ["كمية المادة", "ar"],
@@ -13448,6 +14877,15 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["madde miktarı", "tr"],
     ["物质的量", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/Angle": [
+    ["distance angulaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AngleOfAttack": [
+    ["incidence", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AngleOfOpticalRotation": [
+    ["angle de rotation optique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/AngularAcceleration": [
     ["تسارع زاوي", "ar"],
     ["Úhlové zrychlení", "cs"],
@@ -13465,6 +14903,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Угловое ускорение", "ru"],
     ["Açısal ivme", "tr"],
     ["角加速度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AngularCrossSection": [
+    ["distribution directionnelle de la section efficace", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/AngularFrequency": [
     ["تردد زاوى", "ar"],
@@ -13487,6 +14928,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["popęd kątowy", "pl"],
     ["impulsão angular", "pt"],
     ["角冲量;冲量矩", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AngularMomentum": [
+    ["moment cinétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AngularReciprocalLatticeVector": [
+    ["vecteur du réseau réciproque", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/AngularVelocity": [
     ["سرعة زاوية", "ar"],
@@ -13557,6 +15004,45 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
   "http://qudt.org/vocab/quantitykind/AreaPerPower": [
     ["Fläche pro Heizlast", "de"]
   ],
+  "http://qudt.org/vocab/quantitykind/AtmosphericPressure": [
+    ["pression atmosphérique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AtomScatteringFactor": [
+    ["facteur de diffusion atomique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient": [
+    ["coefficient d'atténuation atomique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AtomicMass": [
+    ["masse atomique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AtomicNumber": [
+    ["numéro atomique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AttenuationCoefficient": [
+    ["affaiblissement linéique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AverageEnergyLossPerElementaryChargeProduced": [
+    ["perte moyenne d'énergie par paire d'ions formée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/AverageLogarithmicEnergyDecrement": [
+    ["décrément logarithmique moyen de l'énergie", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/BendingMomentOfForce": [
+    ["momento de flexión", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/BetaDisintegrationEnergy": [
+    ["énergie de désintégration bêta", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/BindingFraction": [
+    ["facteur de liaison", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/BodyMassIndex": [
+    ["indice de masse corporelle", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/BraggAngle": [
+    ["angle de Bragg", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Breadth": [
     ["العرض", "ar"],
     ["šířka", "cs"],
@@ -13573,6 +15059,21 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["širina", "sl"],
     ["genişliği", "tr"],
     ["寬度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/BulkModulus": [
+    ["module d'élasticité isostatique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/BurgersVector": [
+    ["vecteur de Burgers", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/CanonicalPartitionFunction": [
+    ["fonction de partition canonique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Capacitance": [
+    ["capacité électrique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/CarrierLifetime": [
+    ["durée de vie des porteurs", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/CartesianCoordinates": [
     ["Kartézská soustava souřadnic", "cs"],
@@ -13607,6 +15108,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["hacim", "tr"],
     ["体积", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/CatalyticActivity": [
+    ["activité catalytique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/CelsiusTemperature": [
     ["درجة الحرارة المئوية أو السيلسيوس", "ar"],
     ["teplota", "cs"],
@@ -13627,6 +15131,15 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Celsius sıcaklık", "tr"],
     ["温度", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/CharacteristicAcousticImpedance": [
+    ["impédance acoustique caractéristique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ChargeNumber": [
+    ["nombre de charge", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ChemicalAffinity": [
+    ["affinité chimique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/ChemicalPotential": [
     ["جهد كيميائي", "ar"],
     ["Chemický potenciál", "cs"],
@@ -13643,6 +15156,21 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Химический потенциал", "ru"],
     ["kimyasal potansiyel", "tr"],
     ["化学势", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Coercivity": [
+    ["coercitivité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/CoherenceLength": [
+    ["longueur de cohérence", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ComplexPower": [
+    ["puissance complexe", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Compressibility": [
+    ["compressibilité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Concentration": [
+    ["concentration", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/CostPerArea": [
     ["Kosten pro Fläche", "de"]
@@ -13666,6 +15194,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Константа взаимодействия", "ru"],
     ["Çiftlenim sabiti", "tr"],
     ["耦合常數", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/CrossSection": [
+    ["section efficace", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/CrossSectionalArea": [
+    ["section droite", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/CubicExpansionCoefficient": [
     ["معامل التمدد الحجمى", "ar"],
@@ -13703,6 +15237,45 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Curie sıcaklığı", "tr"],
     ["居里点", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/CurrentLinkage": [
+    ["courant totalisé", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Curvature": [
+    ["courbure", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/CurvatureFromRadius": [
+    ["courbure", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/CyclotronAngularFrequency": [
+    ["pulsation cyclotron", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Debye-WallerFactor": [
+    ["facteur de Debye-Waller", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DebyeAngularFrequency": [
+    ["pulsation de Debye", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DebyeAngularWavenumber": [
+    ["nombre d'onde angulaire de Debye", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DebyeTemperature": [
+    ["température de Debye", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DecayConstant": [
+    ["constante de désintégration", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DegreeOfDissociation": [
+    ["facteur de dissociation", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Density": [
+    ["masse volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DensityOfStates": [
+    ["densité d'états électroniques", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Depth": [
+    ["profondeur", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Diameter": [
     ["قطر", "ar"],
     ["průměr", "cs"],
@@ -13719,6 +15292,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["çap", "tr"],
     ["直径", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/DiastolicBloodPressure": [
+    ["pression diastolique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DiffusionArea": [
+    ["aire de diffusion", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/DiffusionCoefficient": [
     ["Diffusionskoeffizient", "de"],
     ["coeficiente de difusión", "es"],
@@ -13726,6 +15305,24 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["coefficiente di diffusione", "it"],
     ["coeficiente de difusão", "pt"],
     ["difuzijski koeficient", "sl"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DiffusionCoefficientForFluenceRate": [
+    ["coefficient de diffusion pour le débit de fluence", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DiffusionLength": [
+    ["longueur de diffusion", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Displacement": [
+    ["déplacement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DisplacementCurrent": [
+    ["courant de déplacement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DisplacementCurrentDensity": [
+    ["densité de courant de déplacement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DisplacementVectorOfIon": [
+    ["vecteur de déplacement", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/Distance": [
     ["Vzdálenost", "cs"],
@@ -13738,6 +15335,27 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["distância", "pt"],
     ["uzaklık", "tr"],
     ["距离", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DonorDensity": [
+    ["densité de donneurs", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DonorIonizationEnergy": [
+    ["énergie d'ionisation de donneur", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DoseEquivalent": [
+    ["dose équivalente", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DoseEquivalentQualityFactor": [
+    ["facteur de qualité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DragCoefficient": [
+    ["coefficient de traînée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DynamicFriction": [
+    ["friction de glissement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/DynamicPressure": [
+    ["pression dynamique", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/DynamicViscosity": [
     ["لزوجة", "ar"],
@@ -13757,6 +15375,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["dinamična viskoznost", "sl"],
     ["dinamik akmazlık", "tr"],
     ["动力粘度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EffectiveMass": [
+    ["masse effective", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/Efficiency": [
     ["كفاءة", "ar"],
@@ -13793,6 +15414,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["električni naboj", "sl"],
     ["elektrik yükü", "tr"],
     ["电荷", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectricChargeDensity": [
+    ["charge électrique volumique", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/ElectricConductivity": [
     ["elektrische Leitfähigkeit", "de"],
@@ -13849,6 +15473,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Akım yoğunluğu", "tr"],
     ["电流密度", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/ElectricCurrentPhasor": [
+    ["phaseur de courant électrique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/ElectricDipoleMoment": [
     ["عزم ثنائي قطب", "ar"],
     ["Dipólový moment", "cs"],
@@ -13866,6 +15493,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Электрический дипольный момент", "ru"],
     ["elektrik dipol momenti", "tr"],
     ["电偶极矩", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectricDisplacementField": [
+    ["induction électrique", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/ElectricFieldStrength": [
     ["شدة المجال الكهربائي", "ar"],
@@ -13889,6 +15519,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["jakost električnega polja", "sl"],
     ["elektriksel alan kuvveti", "tr"],
     ["電場", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectricFlux": [
+    ["flux électrique", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/ElectricFluxDensity": [
     ["إزاحة كهربائية", "ar"],
@@ -14012,6 +15645,18 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["susceptibilidade eléctrica", "pt"],
     ["электрическая восприимчивость", "ru"]
   ],
+  "http://qudt.org/vocab/quantitykind/ElectrolyticConductivity": [
+    ["conductivité électrolytique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectromagneticEnergyDensity": [
+    ["énergie électromagnétique volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectromagneticPermeability": [
+    ["perméabilité magnétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectromagneticPermeabilityRatio": [
+    ["perméabilité relative", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/ElectromotiveForce": [
     ["قوة محركة كهربائية", "ar"],
     ["Elektromotorické napětí", "cs"],
@@ -14031,8 +15676,20 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Elektromotor kuvvet", "tr"],
     ["電動勢", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/ElectronAffinity": [
+    ["affinité électronique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectronDensity": [
+    ["densité électronique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ElectronMeanFreePath": [
+    ["libre parcours moyen des électrons", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/ElevationRelativeToNAP": [
     ["Hoogte ten opzichte van NAP", "nl"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Emissivity": [
+    ["émissivité", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/Energy": [
     ["الطاقة", "ar"],
@@ -14057,6 +15714,21 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["energija", "sl"],
     ["enerji", "tr"],
     ["能量", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EnergyDensity": [
+    ["densité d'énergie", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EnergyDensityOfStates": [
+    ["densité des états d'énergie", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EnergyFluence": [
+    ["fluence énergétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EnergyFluenceRate": [
+    ["débit de fluence énergétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EnergyImparted": [
+    ["énergie communiquée", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/EnergyInternal": [
     ["طاقة داخلية", "ar"],
@@ -14133,6 +15805,48 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["entropi", "tr"],
     ["熵", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/EquilibriumConstant": [
+    ["constante d'équilibre", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EquilibriumConstantOnConcentrationBasis": [
+    ["constante d'équilibre pour les concentrations", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EquilibriumConstantOnPressureBasis": [
+    ["constante d'équilibre pour les pressions", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EquilibriumPositionVectorOfIon": [
+    ["rayon vecteur d'équilibre", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea": [
+    ["aire d'absorption équivalente acoustique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ExchangeIntegral": [
+    ["intégrale d'échange", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Exposure": [
+    ["exposition", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ExposureRate": [
+    ["débit d'exposition", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ExtentOfReaction": [
+    ["avancement de réaction", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/FastFissionFactor": [
+    ["facteur de fission rapide", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/FermiAngularWavenumber": [
+    ["nombre d'onde angulaire de Fermi", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/FermiEnergy": [
+    ["énergie de Fermi", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/FermiTemperature": [
+    ["température de Fermi", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/FirstMomentOfArea": [
+    ["moment statique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Force": [
     ["وحدة القوة في نظام متر كيلوغرام ثانية", "ar"],
     ["сила", "bg"],
@@ -14181,6 +15895,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["frekans", "tr"],
     ["频率", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/Friction": [
+    ["frottement", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Fugacity": [
     ["انفلاتية", "ar"],
     ["fugacita", "cs"],
@@ -14196,6 +15913,27 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["fugacitate", "ro"],
     ["fügasite", "tr"],
     ["逸度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/FundamentalLatticeVector": [
+    ["vecteur de base", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/FundamentalReciprocalLatticeVector": [
+    ["vecteur de base réciproque", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GFactorOfNucleus": [
+    ["facteur g d'un noyau", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GeneralizedCoordinate": [
+    ["coordonnée généralisée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GeneralizedForce": [
+    ["force généralisée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GeneralizedMomentum": [
+    ["quantité de mouvement généralisée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GeneralizedVelocity": [
+    ["vitesse généralisée", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/GibbsEnergy": [
     ["طاقة غيبس الحرة", "ar"],
@@ -14215,6 +15953,24 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Gibbs Serbest Enerjisi", "tr"],
     ["吉布斯自由能", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/GrandCanonicalPartitionFunction": [
+    ["fonction de partition grand-canonique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GravitationalAttraction": [
+    ["constante de gravitation", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Gravity_API": [
+    ["densité API", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GroupSpeedOfSound": [
+    ["vitesse de groupe du son", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GruneisenParameter": [
+    ["paramètre thermodynamique de Grüneisen", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/GyromagneticRatio": [
+    ["rapport gyromagnétique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Half-Life": [
     ["Poločas rozpadu", "cs"],
     ["Halbwertszeit", "de"],
@@ -14226,6 +15982,15 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["meia-vida", "pt"],
     ["yarılanma süresi", "tr"],
     ["半衰期", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Half-ValueThickness": [
+    ["couche de demi-atténuation", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/HallCoefficient": [
+    ["coefficient de Hall", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/HeartRate": [
+    ["fréquence cardiaque", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/Heat": [
     ["حرارة", "ar"],
@@ -14266,6 +16031,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["isı kapasitesi", "tr"],
     ["热容", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/HeatCapacityRatio": [
+    ["indice adiabatique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/HeatFlowRate": [
+    ["flux thermique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Height": [
     ["Výška", "cs"],
     ["Höhe", "de"],
@@ -14297,6 +16068,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Helmholtz enerjisi", "tr"],
     ["亥姆霍兹自由能", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/HoleDensity": [
+    ["densité de trous", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/HyperfineStructureQuantumNumber": [
+    ["nombre quantique de structure hyperfine", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Illuminance": [
     ["شدة الضوء", "ar"],
     ["Осветеност", "bg"],
@@ -14318,6 +16095,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["osvetljenost", "sl"],
     ["aydınlanma şiddeti", "tr"],
     ["照度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Impedance": [
+    ["impédance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/IncidenceProportion": [
+    ["incidence", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/Inductance": [
     ["المحاثة (التحريض)", "ar"],
@@ -14342,6 +16125,33 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["İndüktans", "tr"],
     ["电感", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/InfiniteMultiplicationFactor": [
+    ["facteur de multiplication infini", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/InformationEntropy": [
+    ["entropie de Shannon", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/InternalConversionFactor": [
+    ["coefficient de conversion interne", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/InternalEnergy": [
+    ["énergie interne", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/IntinsicCarrierDensity": [
+    ["densité intrinsèque", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/InverseLength": [
+    ["longueur réciproque", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/IonTransportNumber": [
+    ["nombre de transport ionique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/IonicStrength": [
+    ["force ionique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/IonizationEnergy": [
+    ["énergie d'ionisation", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Irradiance": [
     ["الطاقة الهلامية", "ar"],
     ["Intenzita záření", "cs"],
@@ -14356,6 +16166,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Поверхностная плотность потока энергии", "ru"],
     ["yoğunluk", "tr"],
     ["辐照度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/IsentropicCompressibility": [
+    ["compressibilité isentropique", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/IsentropicExponent": [
     ["نسبة السعة الحرارية", "ar"],
@@ -14389,6 +16202,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Izotermna stisljivost", "sl"],
     ["等温压缩率", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/Kerma": [
+    ["kerma", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/KermaRate": [
+    ["débit de kerma", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/KinematicViscosity": [
     ["لزوجة", "ar"],
     ["viskozita", "cs"],
@@ -14407,6 +16226,24 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["kinematična viskoznost", "sl"],
     ["Kinematik akmazlık", "tr"],
     ["运动粘度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/KineticEnergy": [
+    ["énergie cinétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LagrangeFunction": [
+    ["fonction de Lagrange", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LandeGFactor": [
+    ["facteur de Landé d'un atome", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LarmorAngularFrequency": [
+    ["pulsation de Larmor", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LatticePlaneSpacing": [
+    ["espacement entre plans réticulaires", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LatticeVector": [
+    ["vecteur du réseau", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/Length": [
     ["طول", "ar"],
@@ -14432,6 +16269,30 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["uzunluk", "tr"],
     ["长度", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/Lethargy": [
+    ["léthargie", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LevelWidth": [
+    ["largeur de niveau", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LiftCoefficient": [
+    ["coefficient de portance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LinearAbsorptionCoefficient": [
+    ["coefficient d'absorption linéique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LinearAttenuationCoefficient": [
+    ["coefficient d’atténuation linéique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LinearDensity": [
+    ["masse linéique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LinearElectricCurrentDensity": [
+    ["densité linéique de courant électrique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LinearEnergyTransfer": [
+    ["transfert linéique d'énergie", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/LinearExpansionCoefficient": [
     ["معدل التمدد الحراري الخطي", "ar"],
     ["linearer Ausdehnungskoeffizient", "de"],
@@ -14446,8 +16307,17 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
   "http://qudt.org/vocab/quantitykind/LinearForce": [
     ["Streckenlast", "de"]
   ],
+  "http://qudt.org/vocab/quantitykind/LinearIonization": [
+    ["ionisation linéique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/LinearStiffness": [
     ["Streckenlast", "de"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LinearStrain": [
+    ["dilatation linéique relative", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LinkedFlux": [
+    ["protoflux", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/LogarithmicFrequencyInterval": [
     ["Interval měření frekvence ?", "cs"],
@@ -14460,6 +16330,36 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["частотный интервал", "ru"],
     ["logaritmik frekans aralığı", "tr"],
     ["对数频率间隔", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LondonPenetrationDepth": [
+    ["profondeur de pénétration de London", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Long-RangeOrderParameter": [
+    ["paramètre d'ordre à grande distance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LorenzCoefficient": [
+    ["coefficient de Lorenz", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LossAngle": [
+    ["angle de perte", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LossFactor": [
+    ["facteur de perte", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LowerCriticalMagneticFluxDensity": [
+    ["induction magnétique critique inférieure", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Luminance": [
+    ["luminance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LuminousEfficacy": [
+    ["efficacité lumineuse d’un rayonnement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LuminousEnergy": [
+    ["énergie lumineuse", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/LuminousExposure": [
+    ["exposition lumineuse", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/LuminousFlux": [
     ["التدفق الضوئي", "ar"],
@@ -14527,6 +16427,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Mach sayısı", "tr"],
     ["马赫", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/MacroscopicCrossSection": [
+    ["section efficace volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection": [
+    ["section efficace totale volumique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/MadelungConstant": [
     ["ثابت مادلونك", "ar"],
     ["Madelung-Konstante", "de"],
@@ -14539,6 +16445,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["constante de Madelung", "pt"],
     ["постоянная Маделунга", "ru"],
     ["馬德隆常數", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MagneticDipoleMoment": [
+    ["moment magnétique coulombien", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/MagneticFieldStrength": [
     ["حقل مغناطيسي", "ar"],
@@ -14639,6 +16548,15 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Manyetik moment", "tr"],
     ["磁偶极", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/MagneticPolarization": [
+    ["polarisation magnétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MagneticQuantumNumber": [
+    ["nombre quantique magnétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MagneticTension": [
+    ["tension magnétique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/MagneticVectorPotential": [
     ["magnetický potenciál", "cs"],
     ["magnetisches Potenzial", "de"],
@@ -14665,6 +16583,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["magnetização", "pt"],
     ["намагниченность", "ru"]
   ],
+  "http://qudt.org/vocab/quantitykind/MagnetomotiveForce": [
+    ["force magnétomotrice", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Mass": [
     ["كتلة", "ar"],
     ["Маса", "bg"],
@@ -14689,6 +16610,24 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["kütle", "tr"],
     ["质量", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/MassAbsorptionCoefficient": [
+    ["coefficient d'absorption massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassAttenuationCoefficient": [
+    ["coefficient d'atténuation massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassConcentration": [
+    ["concentration massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassConcentrationOfWater": [
+    ["concentration en masse d'humidité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassConcentrationOfWaterVapour": [
+    ["concentration en masse de vapeur d'eau", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassDefect": [
+    ["défaut de masse", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/MassDensity": [
     ["الكثافة", "ar"],
     ["hustota", "cs"],
@@ -14708,6 +16647,69 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["yoğunluk", "tr"],
     ["密度", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/MassEnergyTransferCoefficient": [
+    ["coefficient de transfert d'énergie massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassExcess": [
+    ["excès de masse", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassFlowRate": [
+    ["débit massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassFraction": [
+    ["fraction massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassFractionOfDryMatter": [
+    ["fraction massique de matière sèche", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassFractionOfWater": [
+    ["fraction massique d'humidité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassNumber": [
+    ["nombre de masse", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassRatio": [
+    ["rapport de masse", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassRatioOfWaterVapourToDryGas": [
+    ["rapport de la masse de vapeur d'eau à la masse de gaz sec", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MassieuFunction": [
+    ["fonction de Massieu", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MaximumBeta-ParticleEnergy": [
+    ["énergie bêta maximale", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MeanEnergyImparted": [
+    ["énergie communiquée moyenne", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MeanFreePath": [
+    ["libre parcours moyen", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MeanLifetime": [
+    ["durée de vie moyenne", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MeanLinearRange": [
+    ["parcours moyen linéaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MeanMassRange": [
+    ["parcours moyen en masse", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MechanicalEnergy": [
+    ["énergie mécanique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MechanicalImpedance": [
+    ["impédance mécanique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MicroCanonicalPartitionFunction": [
+    ["fonction de partition microcanonique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MigrationArea": [
+    ["aire de migration", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MigrationLength": [
+    ["longueur de migration", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Mobility": [
     ["قابلية التحرك", "ar"],
     ["Beweglichkeit", "de"],
@@ -14718,6 +16720,33 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["mobilność", "pl"],
     ["mobilidade", "pt"],
     ["迁移率", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MobilityRatio": [
+    ["rapport de mobilité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ModulusOfAdmittance": [
+    ["module de l'admittance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ModulusOfImpedance": [
+    ["module de l'impédance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolarAbsorptionCoefficient": [
+    ["coefficient d'absorption molaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolarAttenuationCoefficient": [
+    ["coefficient d'extinction molaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolarConductivity": [
+    ["conductivité molaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolarEnergy": [
+    ["énergie molaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolarEntropy": [
+    ["entropie molaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolarHeatCapacity": [
+    ["capacité thermique molaire", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/MolarMass": [
     ["كتلة مولية", "ar"],
@@ -14738,6 +16767,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["molar kütle", "tr"],
     ["摩尔质量", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/MolarOpticalRotatoryPower": [
+    ["rotation spécifique molaire", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/MolarVolume": [
     ["حجم مولي", "ar"],
     ["molární objem", "cs"],
@@ -14755,6 +16787,18 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["molski volumen", "sl"],
     ["molar hacim", "tr"],
     ["摩尔体积", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MoleFraction": [
+    ["fraction molaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolecularConcentration": [
+    ["concentration moléculaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MolecularMass": [
+    ["masse moléculaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MomentOfForce": [
+    ["moment de force", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/MomentOfInertia": [
     ["عزم القصور الذاتي", "ar"],
@@ -14792,6 +16836,15 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Momentum", "tr"],
     ["动量", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/MultiplicationFactor": [
+    ["facteur de multiplication", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/MutualInductance": [
+    ["inductance mutuelle", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/NapierianAbsorbance": [
+    ["absorbance népérienne", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/NeutronDiffusionCoefficient": [
     ["Diffusionskoeffizient", "de"],
     ["coeficiente de difusión", "es"],
@@ -14815,6 +16868,30 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["nötron snumarası", "tr"],
     ["中子數", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/NeutronYieldPerAbsorption": [
+    ["nombre de neutrons produits par neutron absorbé", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/NeutronYieldPerFission": [
+    ["nombre de neutrons produits par fission", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Non-LeakageProbability": [
+    ["probabilité de non-fuite", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/NonActivePower": [
+    ["puissance non active", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/NormalStress": [
+    ["contrainte normale", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/NuclearQuadrupoleMoment": [
+    ["moment quadripolaire nucléaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/NuclearRadius": [
+    ["rayon de charge", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/NuclearSpinQuantumNumber": [
+    ["nombre quantique de spin nucléaire", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/NucleonNumber": [
     ["عدد كتلي", "ar"],
     ["Nukleové číslo", "cs"],
@@ -14830,6 +16907,18 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["nükleon numarası", "tr"],
     ["质量数", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/NumberDensity": [
+    ["densité numérique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/OrbitalAngularMomentumQuantumNumber": [
+    ["nombre quantique secondaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/OrderOfReflection": [
+    ["ordre de réflexion", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/OsmoticCoefficient": [
+    ["coefficient osmotique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/OsmoticPressure": [
     ["Osmotický tlak", "cs"],
     ["osmotischer Druck", "de"],
@@ -14842,6 +16931,48 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["ozmotik basıç", "tr"],
     ["渗透压", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/PackingFraction": [
+    ["facteur de tassement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PartialPressure": [
+    ["pression partielle", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ParticleCurrent": [
+    ["densité de courant de particules", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ParticleFluence": [
+    ["fluence de particules", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ParticleFluenceRate": [
+    ["débit de fluence de particules", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ParticleNumberDensity": [
+    ["nombre volumique de particules", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ParticlePositionVector": [
+    ["rayon vecteur d'une particule", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ParticleSourceDensity": [
+    ["densité totale d'une source de particules", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PathLength": [
+    ["longueur d'un arc", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PeltierCoefficient": [
+    ["coefficient de Peltier", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Period": [
+    ["période", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Permeance": [
+    ["perméance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Permittivity": [
+    ["permittivité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PhaseCoefficient": [
+    ["déphasage linéique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/PhaseDifference": [
     ["اختلاف طور", "ar"],
     ["Phasenverschiebungswinkel", "de"],
@@ -14852,8 +16983,23 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["przesunięcie fazowe", "pl"],
     ["diferença de fase", "pt"]
   ],
+  "http://qudt.org/vocab/quantitykind/PhaseSpeedOfSound": [
+    ["vitesse de phase du son", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PhononMeanFreePath": [
+    ["libre parcours moyen des phonons", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PhotonIntensity": [
+    ["intensité photonique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PhotonRadiance": [
+    ["luminance photonique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/PlanarForce": [
     ["Flächenlast", "de"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PlanckFunction": [
+    ["fonction de Planck", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/PlaneAngle": [
     ["الزاوية النصف قطرية", "ar"],
@@ -14878,6 +17024,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["ravninski kot", "sl"],
     ["düzlemsel açı", "tr"],
     ["角度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Polarizability": [
+    ["polarisabilité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PositionVector": [
+    ["vecteur position", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/PotentialEnergy": [
     ["طاقة وضع", "ar"],
@@ -14974,6 +17126,33 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["basınç", "tr"],
     ["压强、压力", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/PressureCoefficient": [
+    ["coefficient de pression", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Prevalence": [
+    ["prévalence", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PrincipalQuantumNumber": [
+    ["nombre quantique principal", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/PropagationCoefficient": [
+    ["exposant linéique de propagation", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/QualityFactor": [
+    ["facteur de qualité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/QuantumNumber": [
+    ["nombre quantique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RadialDistance": [
+    ["distance radiale", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Radiance": [
+    ["luminance énergétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RadianceFactor": [
+    ["facteur de luminance énergétique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/RadiantEnergy": [
     ["طاقة إشعاعية", "ar"],
     ["energie záření", "cs"],
@@ -14991,6 +17170,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Işınım erkesi", "tr"],
     ["辐射能", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/RadiantEnergyDensity": [
+    ["énergie rayonnante volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RadiantExposure": [
+    ["fluence", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/RadiantFlux": [
     ["قدرة إشعاعية", "ar"],
     ["Strahlungsfluss", "de"],
@@ -15000,6 +17185,18 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["放射パワー", "ja"],
     ["moc promieniowania", "pl"],
     ["potência radiante", "pt"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RadiantIntensity": [
+    ["intensité énergétique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Radius": [
+    ["rayon", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RadiusOfCurvature": [
+    ["rayon de courbure", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ReactionEnergy": [
+    ["énergie de réaction", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/ReactivePower": [
     ["القدرة الكهربائية الردفعلية;الردية", "ar"],
@@ -15015,6 +17212,18 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["potência reativa", "pt"],
     ["reaktif güç", "tr"],
     ["无功功率", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ReactorTimeConstant": [
+    ["constante de temps du réacteur", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RecombinationCoefficient": [
+    ["coefficient de recombinaison", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Reflectance": [
+    ["réflectance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ReflectanceFactor": [
+    ["facteur de réflectance", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/RefractiveIndex": [
     ["معامل الانكسار", "ar"],
@@ -15033,6 +17242,51 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Показатель преломления", "ru"],
     ["kırılma indeksi", "tr"],
     ["折射率", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativeAtomicMass": [
+    ["masse atomique relative", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativeHumidity": [
+    ["humidité relative", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativeMassConcentrationOfVapour": [
+    ["concentration relative en masse de vapeur d'eau", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativeMassDefect": [
+    ["défaut de masse relatif", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativeMassExcess": [
+    ["excès de masse relatif", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativeMassRatioOfVapour": [
+    ["rapport relatif de masse de vapeur", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativeMolecularMass": [
+    ["masse moléculaire relative", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativePermittivity": [
+    ["permittivité relative", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelativePressureCoefficient": [
+    ["coefficient relatif de pression", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RelaxationTIme": [
+    ["temps de relaxation", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ResidualResistivity": [
+    ["résistivité résiduelle", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ResonanceEnergy": [
+    ["énergie de résonance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ResonanceEscapeProbability": [
+    ["facteur antitrappe", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RespiratoryRate": [
+    ["fréquence respiratoire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RestEnergy": [
+    ["énergie au repos", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/RestMass": [
     ["كتلة ساكنة", "ar"],
@@ -15053,6 +17307,18 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["dinlenme kütlesi", "tr"],
     ["静止质量", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/ReverberationTime": [
+    ["temps de réverbération", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ReynoldsNumber": [
+    ["nombre de Reynolds", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/RichardsonConstant": [
+    ["facteur de Richardson", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SecondAxialMomentOfArea": [
+    ["moment quadratique axial d'une aire plane", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/SecondMomentOfArea": [
     ["Flächenträgheitsmoment", "de"],
     ["segundo momento de érea", "es"],
@@ -15064,6 +17330,36 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Geometryczny moment bezwładności", "pl"],
     ["Segundo momento de área", "pt"],
     ["截面二次轴矩", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SecondPolarMomentOfArea": [
+    ["moment quadratique polaire d'une aire plane", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SectionModulus": [
+    ["module d'inertie", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SeebeckCoefficient": [
+    ["coefficient de Seebeck", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ShearModulus": [
+    ["module de cisaillement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ShearStrain": [
+    ["glissement unitaire", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ShearStress": [
+    ["contrainte de cisaillement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Short-RangeOrderParameter": [
+    ["paramètre d'ordre local", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Slowing-DownArea": [
+    ["aire de ralentissement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Slowing-DownDensity": [
+    ["densité de ralentissement", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Slowing-DownLength": [
+    ["longueur de ralentissement", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/SolidAngle": [
     ["الزاوية الصلبة", "ar"],
@@ -15089,6 +17385,27 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["katı cisimdeki açı", "tr"],
     ["立体角度", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/SolidStateDiffusionLength": [
+    ["longueur de diffusion", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundEnergyDensity": [
+    ["densité d'énergie acoustique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundExposure": [
+    ["exposition sonore", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundExposureLevel": [
+    ["niveau d'exposition sonore", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundIntensity": [
+    ["intensité acoustique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundParticleAcceleration": [
+    ["accélération acoustique d'une particule", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundParticleDisplacement": [
+    ["élongation d'une particule", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/SoundParticleVelocity": [
     ["سرعة جسيم", "ar"],
     ["Schallschnelle", "de"],
@@ -15110,6 +17427,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["potência acústica", "pt"],
     ["звуковая мощность", "ru"]
   ],
+  "http://qudt.org/vocab/quantitykind/SoundPowerLevel": [
+    ["niveau de puissance acoustique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundPressure": [
+    ["pression acoustique", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/SoundPressureLevel": [
     ["كمية جذر الطاقة", "ar"],
     ["Hladina akustického tlaku", "cs"],
@@ -15125,6 +17448,66 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["уровень звукового давления", "ru"],
     ["gerilim veya akım oranı", "tr"],
     ["声压级", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundReductionIndex": [
+    ["indice d'affaiblissement acoustique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SoundVolumeVelocity": [
+    ["flux de vitesse acoustique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SourceVoltage": [
+    ["force électromotrice", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificActivity": [
+    ["activité massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificEnergy": [
+    ["densité massique d'énergie", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificEnergyImparted": [
+    ["énergie communiquée massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificEnthalpy": [
+    ["enthalpie massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificEntropy": [
+    ["entropie massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificGibbsEnergy": [
+    ["enthalpie libre massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificHeatCapacity": [
+    ["capacité thermique massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificHeatCapacityAtConstantPressure": [
+    ["capacité thermique massique à pression constante", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificHeatCapacityAtConstantVolume": [
+    ["capacité thermique massique à volume constant", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificHeatCapacityAtSaturation": [
+    ["capacité thermique massique à pression de vapeur saturée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificHelmholtzEnergy": [
+    ["énergie libre massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificImpulseByWeight": [
+    ["impulsion spécifique par poids", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificInternalEnergy": [
+    ["énergie interne massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpecificVolume": [
+    ["volume massique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpectralAngularCrossSection": [
+    ["distribution directionnelle et énergétique de la section efficace", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SpectralCrossSection": [
+    ["distribution énergétique de la section efficace", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Speed": [
+    ["vitesse", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/SpeedOfLight": [
     ["سرعة الضوء", "ar"],
@@ -15182,6 +17565,45 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Spin", "tr"],
     ["自旋", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/SpinQuantumNumber": [
+    ["nombre quantique du spin", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/StandardAbsoluteActivity": [
+    ["activité absolue normale", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/StandardChemicalPotential": [
+    ["potentiel chimique de référence", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/StandardGravitationalParameter": [
+    ["Paramètre gravitationnel standard", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/StaticFriction": [
+    ["force de frottement statique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/StaticPressure": [
+    ["pression statique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/StoichiometricNumber": [
+    ["nombre stœchiométrique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Stress": [
+    ["contrainte mécanique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/StructureFactor": [
+    ["facteur de structure", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SuperconductionTransitionTemperature": [
+    ["température de transition supraconductrice", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SuperconductorEnergyGap": [
+    ["largeur de bande interdite d'un supraconducteur", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SurfaceActivityDensity": [
+    ["activité surfacique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SurfaceCoefficientOfHeatTransfer": [
+    ["coefficient de transmission thermique de surface", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/SurfaceTension": [
     ["توتر سطحي", "ar"],
     ["povrchové napětí", "cs"],
@@ -15201,8 +17623,47 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Yüzey gerilimi", "tr"],
     ["表面张力", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/Susceptance": [
+    ["susceptance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/SystolicBloodPressure": [
+    ["pression systolique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Temperature": [
+    ["température", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/TemperatureDifference": [
     ["Temperaturdifferenz", "de"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Tension": [
+    ["tension mécanique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalConductance": [
+    ["conductance thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalConductivity": [
+    ["conductivité thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalDiffusionFactor": [
+    ["facteur de diffusion thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalDiffusionRatio": [
+    ["rapport de diffusion thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalDiffusionRatioCoefficient": [
+    ["coefficient de diffusion thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalDiffusivity": [
+    ["diffusivité thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalEfficiency": [
+    ["rendement thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalEnergy": [
+    ["énergie thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalInsulance": [
+    ["isolation thermique", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/ThermalResistance": [
     ["مقاومة حرارية", "ar"],
@@ -15214,6 +17675,12 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["熱抵抗", "ja"],
     ["resistência térmica", "pt"],
     ["热阻", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermalUtilizationFactor": [
+    ["facteur d'utilisation thermique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThermodynamicCriticalMagneticFluxDensity": [
+    ["induction magnétique critique thermodynamique", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/ThermodynamicTemperature": [
     ["درجة الحرارة المطلقة", "ar"],
@@ -15239,6 +17706,18 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["termodinamik sıcaklık", "tr"],
     ["热力学温度", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/Thickness": [
+    ["épaisseur", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThomsonCoefficient": [
+    ["coefficient de Thomson", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Thrust": [
+    ["poussée", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/ThrustCoefficient": [
+    ["coefficient de poussée", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Time": [
     ["زمن", "ar"],
     ["Време", "bg"],
@@ -15263,6 +17742,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["zaman", "tr"],
     ["时间", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/TimeAveragedSoundIntensity": [
+    ["intensité acoustique moyenne", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Torque": [
     ["عزم محورى", "ar"],
     ["Torsionmoment", "de"],
@@ -15276,6 +17758,42 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
   ],
   "http://qudt.org/vocab/quantitykind/TorsionalSpringConstant": [
     ["Federkonstante Drehfeder", "de"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalAngularMomentum": [
+    ["moment cinétique total", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalAngularMomentumQuantumNumber": [
+    ["nombre quantique du moment angulaire total", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalAtomicStoppingPower": [
+    ["pouvoir d'arrêt atomique total", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalCrossSection": [
+    ["section efficace totale", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalCurrent": [
+    ["courant total", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalCurrentDensity": [
+    ["densité de courant total", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalIonization": [
+    ["ionisation totale", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalLinearStoppingPower": [
+    ["pouvoir d'arrêt linéique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/TotalMassStoppingPower": [
+    ["pouvoir d'arrêt massique total", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Transmittance": [
+    ["transmittance", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Turbidity": [
+    ["turbidité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/UpperCriticalMagneticFluxDensity": [
+    ["induction magnétique critique supérieure", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/Velocity": [
     ["السرعة", "ar"],
@@ -15298,6 +17816,33 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["hitrost", "sl"],
     ["hız", "tr"],
     ["速度", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Viscosity": [
+    ["viscosité", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Voltage": [
+    ["tension électrique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/VoltagePhasor": [
+    ["phaseur de tension électrique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Volume": [
+    ["volume", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/VolumeFlowRate": [
+    ["débit volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/VolumeFraction": [
+    ["fraction volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/VolumeStrain": [
+    ["dilatation volumique relative", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/VolumetricHeatCapacity": [
+    ["capacité thermique volumique", "fr"]
+  ],
+  "http://qudt.org/vocab/quantitykind/Vorticity": [
+    ["tourbillon", "fr"]
   ],
   "http://qudt.org/vocab/quantitykind/WaterVaporDiffusionCoefficient": [
     ["Wasserdampfdiffusionsleitkoeffizient", "de"]
@@ -15349,6 +17894,9 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["Ağırlık", "tr"],
     ["重量", "zh"]
   ],
+  "http://qudt.org/vocab/quantitykind/Width": [
+    ["largeur", "fr"]
+  ],
   "http://qudt.org/vocab/quantitykind/Work": [
     ["práce", "cs"],
     ["Arbeit", "de"],
@@ -15365,5 +17913,8 @@ export const QUANTITY_KIND_LABELS: Record<string, Array<[string, string]>> = {
     ["delo", "sl"],
     ["iş", "tr"],
     ["功", "zh"]
+  ],
+  "http://qudt.org/vocab/quantitykind/WorkFunction": [
+    ["travail de sortie", "fr"]
   ]
 };
