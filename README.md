@@ -33,6 +33,8 @@ import { Units, Qudt } from "qudtlib-js-i18n";
 
 Everything from `@qudtlib/allunits` is re-exported, and multilingual labels are applied as a side effect at import time.
 
+### Units
+
 ```typescript
 import { Units } from "qudtlib-js-i18n";
 
@@ -41,6 +43,25 @@ Units.M.getLabelForLanguageTag("fr"); // "Mètre"
 Units.M.getLabelForLanguageTag("ja"); // "メートル"
 Units.M.getLabelForLanguageTag("zh"); // "米"
 Units.M.getLabelForLanguageTag("en"); // "Metre" (still works)
+```
+
+### QuantityKinds
+
+```typescript
+import { QuantityKinds, Qudt } from "qudtlib-js-i18n";
+
+// Via the QuantityKinds object (autocomplete available)
+QuantityKinds.Mass.getLabelForLanguageTag("de"); // "Masse"
+QuantityKinds.Mass.getLabelForLanguageTag("fr"); // "masse"
+QuantityKinds.Mass.getLabelForLanguageTag("ja"); // "質量"
+
+// Via Qudt.quantityKindFromLocalname()
+const vel = Qudt.quantityKindFromLocalname("Velocity");
+vel?.getLabelForLanguageTag("fr"); // "vitesse"
+
+// Via full IRI
+const temp = Qudt.quantityKind("http://qudt.org/vocab/quantitykind/Temperature");
+temp?.getLabelForLanguageTag("fr"); // "température"
 ```
 
 ## Languages covered
