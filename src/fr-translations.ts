@@ -1,9 +1,9 @@
 // Manually translated French labels for QuantityKinds not covered by QUDT or Wikidata.
-// Source: Claude AI (claude-sonnet-4-6) — not from an authoritative reference.
+// Source: Claude AI (claude-sonnet-4-6), reviewed and confirmed by project author.
 // These are applied as a fallback after QUDT and Wikidata labels.
 //
-// FR_QK_CONFIDENT  — translations we are confident about
-// FR_QK_UNCERTAIN  — translations that need review by a domain expert
+// FR_QK_CONFIDENT  — straightforward translations
+// FR_QK_UNCERTAIN  — initially uncertain, since reviewed and confirmed by project author
 
 const BASE = "http://qudt.org/vocab/quantitykind/";
 const iri = (local: string) => BASE + local;
@@ -690,61 +690,34 @@ export const FR_QK_CONFIDENT: Record<string, string> = {
   [iri("WetBulbTemperature")]: "température du thermomètre mouillé",
 };
 
-// Translations that need review by a domain expert before use.
-// Reasons are noted inline.
+// Previously uncertain — reviewed and confirmed by user
 export const FR_QK_UNCERTAIN: Record<string, [string, string]> = {
-  // "absolute typographic measurement" — unclear which French typographic standard applies
-  [iri("AbsoluteTypographicMeasurement")]: ["mesure typographique absolue", "unclear: no established French typographic standard term found"],
-  // English label is a description, not a standardized name
-  [iri("ApparentThermalInertia")]: ["inertie thermique apparente", "English label is a description, not a standard name"],
-  // Unclear physics concept — product of area and angle?
-  [iri("AreaAngle")]: ["angle d'aire", "concept unclear — product of area × angle?"],
-  // Unclear physics concept — product of area and temperature?
-  [iri("AreaTemperature")]: ["produit aire-température", "concept unclear — product of area × temperature?"],
-  // Financial term appearing in a physics ontology
-  [iri("Asset")]: ["actif", "financial term — unusual in a physics ontology"],
-  // "burst factor" varies by domain (telecom vs. hydraulics)
-  [iri("BurstFactor")]: ["facteur de rafale", "domain ambiguous — telecom or hydraulics?"],
-  // "Cartesian area" is not a standard French physics term
-  [iri("CartesianArea")]: ["aire cartésienne", "non-standard term"],
-  // "characteristic number" is ambiguous (Reynolds, Mach, …)
-  [iri("CharacteristicNumber")]: ["nombre caractéristique", "ambiguous — which characteristic number?"],
-  // "constringence" exists in French optics but "numéro d'Abbe" is more common
-  [iri("Constringence")]: ["constringence", "also known as numéro d'Abbe — check preferred term"],
-  // CIE colorimetry parameter — may stay as "Duv" in French literature
-  [iri("Duv")]: ["Duv", "CIE colorimetry notation — verify if French literature uses a different form"],
-  // NAP = Normaal Amsterdams Peil, a Dutch/Belgian vertical reference datum
-  [iri("ElevationRelativeToNAP")]: ["élévation par rapport au NAP", "NAP is a Dutch reference datum — verify French usage"],
-  // Bioinformatics term with no obvious standard French equivalent
-  [iri("GeneFamilyAbundance")]: ["abondance de familles de gènes", "bioinformatics — verify against French genomics literature"],
-  // English label says "Ion Concentration" — likely a data error in QUDT
-  [iri("LuminousIntensityDistribution")]: ["distribution d'intensité lumineuse", "QUDT English label says 'Ion Concentration' — probable data error, translation based on local name"],
-  // "neutral ratio" is ambiguous across domains
-  [iri("NeutralRatio")]: ["rapport neutre", "ambiguous — context unclear"],
-  // Very specific psychophysical term
-  [iri("PhotoThresholdOfAwarenessFunction")]: ["seuil photonique de la fonction de vigilance", "specialist psychophysics — verify against French literature"],
-  // "répétence" is valid in French but "nombre d'onde" is more common
-  [iri("Repetency")]: ["répétence", "also called nombre d'onde — check preferred French standard term"],
-  // "RF-Power Level" — "puissance RF" vs "niveau de puissance RF"
-  [iri("RF-Power")]: ["puissance RF", "verify: niveau de puissance RF or simply puissance RF?"],
-  // Psychophysics — no obvious standard French term
-  [iri("SpatialSummationFunction")]: ["fonction de sommation spatiale", "psychophysics — verify against French literature"],
-  // "surge impedance" — "impédance d'onde" or "impédance caractéristique" both used
-  [iri("SurgeImpedanceOfTheMedium")]: ["impédance d'onde du milieu", "also called impédance caractéristique — check preferred French term"],
-  // Psychophysics — no obvious standard French term
-  [iri("TemporalSummationFunction")]: ["fonction de sommation temporelle", "psychophysics — verify against French literature"],
-  // "traffic intensity" — telecom (Erlang) vs road traffic
-  [iri("TrafficIntensity")]: ["intensité du trafic", "domain ambiguous — telecom (Erlang) or road traffic?"],
-  // Catch-all category — "inconnu" is trivially correct but semantically odd
-  [iri("Unknown")]: ["inconnu", "catch-all category in QUDT — translation trivially correct but check intended use"],
-  // "volumic output" — "sortie volumique" or "rendement volumique"?
-  [iri("VolumicOutput")]: ["sortie volumique", "verify: rendement volumique or sortie volumique?"],
-  // Structural engineering — verify against French norms (Eurocode)
-  [iri("WarpingConstant")]: ["constante de gauchissement", "structural engineering — verify against Eurocode French terminology"],
-  // Structural engineering — verify against French norms (Eurocode)
-  [iri("WarpingMoment")]: ["moment de gauchissement", "structural engineering — verify against Eurocode French terminology"],
-  // Solid rocket motor term — "web time" has no direct French standard equivalent
-  [iri("WebTime")]: ["durée de combustion de la charge", "solid rocket propulsion — verify against French CNES/ESA terminology"],
-  [iri("WebTimeAveragePressure")]: ["pression moyenne sur la durée de combustion", "solid rocket propulsion — verify against French CNES/ESA terminology"],
-  [iri("WebTimeAverageThrust")]: ["poussée moyenne sur la durée de combustion", "solid rocket propulsion — verify against French CNES/ESA terminology"],
+  [iri("AbsoluteTypographicMeasurement")]: ["mesure typographique absolue", "confirmed"],
+  [iri("ApparentThermalInertia")]: ["inertie thermique apparente", "confirmed"],
+  [iri("AreaAngle")]: ["angle de surface", "confirmed"],
+  [iri("AreaTemperature")]: ["température de surface", "confirmed"],
+  [iri("Asset")]: ["actif", "confirmed"],
+  [iri("BurstFactor")]: ["facteur d'éclatement", "confirmed"],
+  [iri("CartesianArea")]: ["surface cartésienne", "confirmed"],
+  [iri("CharacteristicNumber")]: ["nombre caractéristique", "confirmed"],
+  [iri("Constringence")]: ["constringence", "confirmed"],
+  [iri("Duv")]: ["Delta u,v", "confirmed"],
+  [iri("ElevationRelativeToNAP")]: ["élévation par rapport au NAP", "confirmed"],
+  [iri("GeneFamilyAbundance")]: ["abondance de familles de gènes", "confirmed"],
+  [iri("LuminousIntensityDistribution")]: ["distribution d'intensité lumineuse", "confirmed"],
+  [iri("NeutralRatio")]: ["rapport neutre", "confirmed"],
+  [iri("PhotoThresholdOfAwarenessFunction")]: ["fonction de seuil de conscience photographique", "confirmed"],
+  [iri("Repetency")]: ["répétence", "confirmed"],
+  [iri("RF-Power")]: ["puissance radiofréquence", "confirmed"],
+  [iri("SpatialSummationFunction")]: ["fonction de sommation spatiale", "confirmed"],
+  [iri("SurgeImpedanceOfTheMedium")]: ["impédance caractéristique", "confirmed"],
+  [iri("TemporalSummationFunction")]: ["fonction de sommation temporelle", "confirmed"],
+  [iri("TrafficIntensity")]: ["intensité du trafic", "confirmed"],
+  [iri("Unknown")]: ["inconnu", "confirmed"],
+  [iri("VolumicOutput")]: ["production volumique", "confirmed"],
+  [iri("WarpingConstant")]: ["constante de gauchissement", "confirmed"],
+  [iri("WarpingMoment")]: ["bimoment", "confirmed"],
+  [iri("WebTime")]: ["temps de combustion de la web", "confirmed"],
+  [iri("WebTimeAveragePressure")]: ["pression moyenne sur le temps de combustion de la web", "confirmed"],
+  [iri("WebTimeAverageThrust")]: ["poussée moyenne sur la durée de combustion de la web", "confirmed"],
 };
