@@ -2,6 +2,7 @@ import { LangString, Qudt } from "@qudtlib/core";
 export * from "@qudtlib/allunits";
 import { UNIT_LABELS, QUANTITY_KIND_LABELS } from "./labels.js";
 import { FR_QK_CONFIDENT, FR_QK_UNCERTAIN } from "./fr-translations.js";
+import { DE_QK_TRANSLATIONS } from "./de-translations.js";
 
 for (const [iri, pairs] of Object.entries(UNIT_LABELS)) {
   const unit = Qudt.unit(iri);
@@ -32,5 +33,13 @@ for (const [iri, [frLabel]] of Object.entries(FR_QK_UNCERTAIN)) {
   const qk = Qudt.quantityKind(iri);
   if (qk && !qk.getLabelForLanguageTag("fr")) {
     qk.addLabel(new LangString(frLabel, "fr"));
+  }
+}
+
+// AI-translated German labels (fallback — applied only where no German label exists)
+for (const [iri, deLabel] of Object.entries(DE_QK_TRANSLATIONS)) {
+  const qk = Qudt.quantityKind(iri);
+  if (qk && !qk.getLabelForLanguageTag("de")) {
+    qk.addLabel(new LangString(deLabel, "de"));
   }
 }

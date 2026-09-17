@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- German (`de`) labels from Wikidata where QUDT has none (+550 units, +395 quantity kinds)
+- Retry with backoff on Wikidata 429/5xx responses in `generate-labels.ts`
+- German (`de`) AI-translated labels for the remaining 689 QuantityKinds — 100% German QK coverage, matching French. **Not yet reviewed** by the project author (see README note)
+
 ## [0.3.0] - 2026-02-27
 
 ### Added
